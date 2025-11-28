@@ -1,0 +1,361 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 355
+    values:
+      - ""
+      - Animation
+      - Animation/ImageMaterial.mat
+      - Animation/animation.t3d
+      - Animation/animation.t3d/animation
+      - Animation/animation.t3d/atlas_0.png
+      - Balls
+      - Balls/.hidden
+      - Balls/.hidden/Beach_Ball.ss_graph
+      - Balls/.hidden/white.jpg
+      - Balls/Balls.prefab
+      - Balls/Materials
+      - Balls/Materials/Beach_Ball.mat
+      - Balls/Materials/Cricket_Ball.mat
+      - Balls/Materials/Golf_Ball.mat
+      - Balls/Materials/Magic_Ball.mat
+      - Balls/Materials/Pixar_Ball.mat
+      - Balls/Materials/Smoke_Ball.mat
+      - Balls/Materials/Soccer_Ball.mat
+      - Balls/Materials/Tennis_Ball.mat
+      - Balls/Materials/Unlit.mat
+      - Balls/Materials/V_Ball_1.mat
+      - Balls/Materials/V_Ball_2.mat
+      - Balls/Materials/V_Ball_3.mat
+      - Balls/Materials/mat1.mat
+      - Balls/Materials/mat2.mat
+      - Balls/Materials/mat3.mat
+      - Balls/Materials/mat4.mat
+      - Balls/Materials/unlit.ss_graph
+      - Balls/Meshes
+      - Balls/Meshes/BeachBall.mesh
+      - Balls/Meshes/Cricket Ball.mesh
+      - Balls/Meshes/Golf_Ball.mesh
+      - Balls/Meshes/Magic_Ball.mesh
+      - Balls/Meshes/Pixar_Ball.mesh
+      - Balls/Meshes/Poke_Ball.mesh
+      - Balls/Meshes/Poke_Ball1.mesh
+      - Balls/Meshes/Poke_Ball2.mesh
+      - Balls/Meshes/Poke_Ball3.mesh
+      - Balls/Meshes/Smoke_Ball.mesh
+      - Balls/Meshes/Soccer_Ball.mesh
+      - Balls/Meshes/Tennis_Ball.mesh
+      - Balls/Meshes/V_Ball.mesh
+      - Balls/Meshes/V_Ball1.mesh
+      - Balls/Meshes/V_Ball2.mesh
+      - Balls/Textures
+      - Balls/Textures/BeachBall.png
+      - Balls/Textures/Cricket_Ball.png
+      - Balls/Textures/Golf_Ball.png
+      - Balls/Textures/ImageMaterial.mat
+      - Balls/Textures/ItmCommonMBallB1.png
+      - Balls/Textures/ItmCommonMBallBD0.png
+      - Balls/Textures/ItmCommonMBallBU0.png
+      - Balls/Textures/ItmCommonMBallI0.png
+      - Balls/Textures/M_ball_Alb.png
+      - Balls/Textures/Pixar_Ball.png
+      - Balls/Textures/Smoke_Ball.png
+      - Balls/Textures/Soccer_Ball.png
+      - Balls/Textures/Tennis_Ball.png
+      - Balls/Textures/obj_itm_beachball_00_alb.png
+      - Balls/Textures/obj_itm_beachball_00_nrm.png
+      - Balls/Textures/obj_itm_beachball_00_trs.png
+      - Base.png
+      - Behavior.lsc
+      - Box.mesh
+      - ButtonInteractionVisual.js
+      - ButtonPressHandler.js
+      - CricketBall.prefab
+      - Device Camera Texture.deviceCameraTexture
+      - Echopark.hdr
+      - Echopark.hdr/Diffuse
+      - Echopark.hdr/Specular
+      - Face Inset 2.mat
+      - Face Inset.mat
+      - Face Mask.mat
+      - Face Tracking Scope.faceTrackingScope
+      - FaceMask.png
+      - FaceMaskOpacity.jpg
+      - Head.mesh
+      - Image 2.mat
+      - Image 3.mat
+      - Image 4.mat
+      - Image 5.mat
+      - Image 6.mat
+      - Image.mat
+      - Image.png
+      - ImageMaterial 2.mat
+      - ImageMaterial.mat
+      - Leaderboard.lsc
+      - Leaderboard.lsc/CC Resources
+      - Leaderboard.lsc/CC Resources/BitmojiStickerLoader.ts
+      - Leaderboard.lsc/CC Resources/ComponentUtils.ts
+      - Leaderboard.lsc/CC Resources/DestructionHelper.ts
+      - Leaderboard.lsc/CC Resources/Font
+      - Leaderboard.lsc/CC Resources/Font/Poppins-SemiBold.ttf
+      - Leaderboard.lsc/CC Resources/FullLeaderboard.ts
+      - Leaderboard.lsc/CC Resources/FullLeaderboardAnimations.ts
+      - Leaderboard.lsc/CC Resources/Interfaces
+      - Leaderboard.lsc/CC Resources/Interfaces/CustomComponentsInterfaces.d.ts
+      - Leaderboard.lsc/CC Resources/Interfaces/LeaderboardConstants.ts
+      - Leaderboard.lsc/CC Resources/Interfaces/LeaderboardRelated.ts
+      - Leaderboard.lsc/CC Resources/IntertialAnimation.ts
+      - Leaderboard.lsc/CC Resources/LeaderboardComponent.d.ts
+      - Leaderboard.lsc/CC Resources/LeaderboardComponent.ts
+      - Leaderboard.lsc/CC Resources/LeaderboardCore.d.ts
+      - Leaderboard.lsc/CC Resources/LeaderboardCore.ts
+      - Leaderboard.lsc/CC Resources/LeaderboardStorageScoresTracker.ts
+      - Leaderboard.lsc/CC Resources/LeaderboardUtils.ts
+      - Leaderboard.lsc/CC Resources/Modules
+      - Leaderboard.lsc/CC Resources/Modules/Animation
+      - Leaderboard.lsc/CC Resources/Modules/Animation/AnimationUtils.ts
+      - Leaderboard.lsc/CC Resources/Modules/Animation/Configurations
+      - Leaderboard.lsc/CC Resources/Modules/Animation/Configurations/AnchorsConfiguration.ts
+      - Leaderboard.lsc/CC Resources/Modules/Animation/Configurations/IConfiguration.ts
+      - Leaderboard.lsc/CC Resources/Modules/Animation/Easing.ts
+      - Leaderboard.lsc/CC Resources/Modules/Animation/PropertyAnimator.ts
+      - Leaderboard.lsc/CC Resources/Modules/Bitmoji Module.bitmojiModule
+      - Leaderboard.lsc/CC Resources/Modules/CachedEvent.ts
+      - Leaderboard.lsc/CC Resources/Modules/DateUtils.ts
+      - Leaderboard.lsc/CC Resources/Modules/DisplayNameUtils.ts
+      - Leaderboard.lsc/CC Resources/Modules/Event.d.ts
+      - Leaderboard.lsc/CC Resources/Modules/Event.ts
+      - Leaderboard.lsc/CC Resources/Modules/Leaderboard Module.leaderBoardModule
+      - Leaderboard.lsc/CC Resources/Modules/Remote Media Module.remoteMediaModule
+      - Leaderboard.lsc/CC Resources/Modules/UnicodeUtils.ts
+      - Leaderboard.lsc/CC Resources/Prefabs
+      - Leaderboard.lsc/CC Resources/Prefabs/Dependencies
+      - Leaderboard.lsc/CC Resources/Prefabs/Dependencies/Dependencies.prefab
+      - Leaderboard.lsc/CC Resources/Prefabs/Dependencies/DependenciesControl.js
+      - Leaderboard.lsc/CC Resources/Prefabs/Dependencies/SideSwitcherForLeaderboard.lsc
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/FullLeaderboard.prefab
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials/BitmojiTexture.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials/FirstLineNoHeaderDisign.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials/FixedSizeTexture.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials/Gaussian Blur.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials/bottomPartList.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials/invisible.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials/timer.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials/topPartWithText.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Materials/whitePlayerBgActive.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Scripts
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Scripts/FullLeaderboardControl.js
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Shaders
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Shaders/Invisible.ss_graph
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Shaders/flat.ss_graph
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Shaders/gauss_blur.ss_graph
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Textures
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Textures/Screen Texture.screenTexture
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Textures/topPartWithText.png
+      - Leaderboard.lsc/CC Resources/Prefabs/FullLeaderboard/Textures/whitePixel.jpg
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/LeadearboardEntry.prefab
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Materials
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Materials/activeSideBorder.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Materials/greyBottomStroke.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Materials/medal.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Materials/playerInListActive.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Scripts
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Scripts/LeaderboardEntryControl.js
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Shaders
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Shaders/playerInList.ss_graph
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Textures
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Textures/BronseMedal.png
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Textures/GoldMedal.png
+      - Leaderboard.lsc/CC Resources/Prefabs/LeaderboardEntry/Textures/SilverMedal.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/BackgroundOnePlayer.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/Bitmoji_Left.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/Bitmoji_Middle.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/Bitmoji_Right.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/backgrondOneFriends.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/backgrondTwoFriends.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/crown.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/infoBgOneFriends.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/infoBgTwoFriends.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Materials/trophy.mat
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/ScoreWidget.prefab
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Scripts
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Scripts/ScoreWidgetControl.js
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Shaders
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Shaders/BitmojiShader.ss_graph
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/BackgroundOnePlayer.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/InfoBackgroundOneFriend.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/InfoBackgroundTwoFriends.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/MaskLeft.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/MaskMiddle.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/MaskRight.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/crown.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/freindsBackgroundOneFriend.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/freindsBackgroundTwoFriends.png
+      - Leaderboard.lsc/CC Resources/Prefabs/ScoresWidget/Textures/trophySideSwitcher.png
+      - Leaderboard.lsc/CC Resources/ScoresWidget.ts
+      - Leaderboard.lsc/CC Resources/Shaders
+      - Leaderboard.lsc/CC Resources/Shaders/PlayerBackground.ss_graph
+      - Leaderboard.lsc/CC Resources/Shaders/defaultShader.ss_graph
+      - Leaderboard.lsc/CC Resources/Shaders/medal.ss_graph
+      - Leaderboard.lsc/CC Resources/Textures
+      - Leaderboard.lsc/CC Resources/Textures/InvisiblePixel.png
+      - Leaderboard.lsc/CC Resources/Textures/LeaderboardSideSwitcher.png
+      - Leaderboard.lsc/CC Resources/Textures/Time.png
+      - Leaderboard.lsc/CC Resources/TokenManager.ts
+      - Leaderboard.lsc/README LeaderboardCC.md
+      - Leaderboard.lsc/README LeaderboardCore.md
+      - Leaderboard.lsc/package.native
+      - MainGameController.js
+      - Mask.png
+      - MaterialParams.png
+      - Normal.png
+      - Occluder.mat
+      - PBR 2.mat
+      - PBR.mat
+      - Render Target.renderTarget
+      - Resource Bar Pack.lspkg
+      - Resource Bar Pack.lspkg/Fonts
+      - Resource Bar Pack.lspkg/Fonts/Lato-Bold.ttf
+      - Resource Bar Pack.lspkg/Fonts/Lato-Regular.ttf
+      - Resource Bar Pack.lspkg/Materials
+      - "Resource Bar Pack.lspkg/Materials/Bar Mat 1 [EDIT ME].mat"
+      - "Resource Bar Pack.lspkg/Materials/Bar Mat 2 [EDIT ME].mat"
+      - "Resource Bar Pack.lspkg/Materials/Bar Mat 3 [EDIT ME].mat"
+      - "Resource Bar Pack.lspkg/Materials/Bar Mat 4 [EDIT ME].mat"
+      - "Resource Bar Pack.lspkg/Materials/Bar Mat 5 [EDIT ME].mat"
+      - Resource Bar Pack.lspkg/Materials/BgImageMat.mat
+      - "Resource Bar Pack.lspkg/Materials/Frame Material 1 [EDIT ME].mat"
+      - "Resource Bar Pack.lspkg/Materials/Frame Material 2 [EDIT ME].mat"
+      - "Resource Bar Pack.lspkg/Materials/Frame Material 3 [EDIT ME].mat"
+      - "Resource Bar Pack.lspkg/Materials/Frame Material 4 [EDIT ME].mat"
+      - Resource Bar Pack.lspkg/Materials/Image.mat
+      - Resource Bar Pack.lspkg/Materials/Image10.mat
+      - Resource Bar Pack.lspkg/Materials/Image11.mat
+      - Resource Bar Pack.lspkg/Materials/Image12.mat
+      - Resource Bar Pack.lspkg/Materials/Image13.mat
+      - Resource Bar Pack.lspkg/Materials/Image14.mat
+      - Resource Bar Pack.lspkg/Materials/Image15.mat
+      - Resource Bar Pack.lspkg/Materials/Image2.mat
+      - Resource Bar Pack.lspkg/Materials/Image3.mat
+      - Resource Bar Pack.lspkg/Materials/Image4.mat
+      - Resource Bar Pack.lspkg/Materials/Image5.mat
+      - Resource Bar Pack.lspkg/Materials/Image7.mat
+      - Resource Bar Pack.lspkg/Materials/Image8.mat
+      - Resource Bar Pack.lspkg/Materials/Image9.mat
+      - Resource Bar Pack.lspkg/Materials/Info Card Background.mat
+      - "Resource Bar Pack.lspkg/Materials/Segment Bar Mat [EDIT ME].mat"
+      - Resource Bar Pack.lspkg/Materials/SpritePreset.mat
+      - Resource Bar Pack.lspkg/Resource_Bar_Pack____PUT_IN_ORTHO_CAM.prefab
+      - Resource Bar Pack.lspkg/Scripts
+      - Resource Bar Pack.lspkg/Scripts/Behavior.lsc
+      - Resource Bar Pack.lspkg/Scripts/ContinuousBarUpdaterScript.js
+      - Resource Bar Pack.lspkg/Scripts/Documentation.js
+      - Resource Bar Pack.lspkg/Scripts/SegmentedBarUpdaterScript.js
+      - Resource Bar Pack.lspkg/Shaders
+      - "Resource Bar Pack.lspkg/Shaders/Bar Mat 1 [EDIT ME].ss_graph"
+      - Resource Bar Pack.lspkg/Shaders/Image1.ss_graph
+      - Resource Bar Pack.lspkg/Shaders/Info Card Background.ss_graph
+      - Resource Bar Pack.lspkg/Textures
+      - Resource Bar Pack.lspkg/Textures/BaseTex.png
+      - Resource Bar Pack.lspkg/Textures/Hearth.png
+      - Resource Bar Pack.lspkg/Textures/Icon.png
+      - Resource Bar Pack.lspkg/Textures/Life 2.png
+      - Resource Bar Pack.lspkg/Textures/Life 4.png
+      - Resource Bar Pack.lspkg/Textures/Life 5.png
+      - Resource Bar Pack.lspkg/Textures/Life 7.png
+      - Resource Bar Pack.lspkg/Textures/Life Bar 2.png
+      - Resource Bar Pack.lspkg/Textures/Life Bar 7.png
+      - Resource Bar Pack.lspkg/Textures/Life bar 4.png
+      - Resource Bar Pack.lspkg/Textures/Life bar 5.png
+      - Resource Bar Pack.lspkg/Textures/Life bars 1.png
+      - Resource Bar Pack.lspkg/package.native
+      - Scene.scene
+      - Segmentation Texture.segmentationTexture
+      - Simple High Score.lspkg
+      - Simple High Score.lspkg/Fonts
+      - Simple High Score.lspkg/Fonts/jellee_roman.ttf
+      - Simple High Score.lspkg/Materials
+      - Simple High Score.lspkg/Materials/SpritePreset.lsmat.mat
+      - Simple High Score.lspkg/Materials/SpritePreset2.lsmat.mat
+      - Simple High Score.lspkg/Materials/SpritePreset3.lsmat.mat
+      - Simple High Score.lspkg/Scripts
+      - Simple High Score.lspkg/Scripts/EndGame.js
+      - Simple High Score.lspkg/Scripts/IncrementScore.js
+      - Simple High Score.lspkg/Scripts/SimpleHighScoreController.js
+      - Simple High Score.lspkg/Shaders
+      - Simple High Score.lspkg/Shaders/SpritePreset1.lsmat.ss_graph
+      - Simple High Score.lspkg/Simple High Score__PUT_IN_ORTHO_CAM.prefab
+      - Simple High Score.lspkg/Textures
+      - Simple High Score.lspkg/Textures/add_point.png
+      - Simple High Score.lspkg/Textures/end_game.png
+      - Simple High Score.lspkg/Textures/high_score_background.png
+      - Simple High Score.lspkg/package.native
+      - Square.png
+      - Target.png
+      - TargetScaling.png
+      - TweenManager.lspkg
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/ExampleTweenValueScript.js"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/Image Unlit.mat"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/TweenBoxDiffuse.mat"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/TweenBoxDiffuse_Alt.mat"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/TweenSphereDiffuse.mat"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Meshes"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Meshes/TweenBox.mesh"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Meshes/TweenSphere.mesh"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Shaders"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Shaders/Image Unlit.ss_graph"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Shaders/TweenBoxDiffuse.ss_graph"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Textures"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Textures/TweenImageTextures"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Textures/TweenImageTextures/Image.png"
+      - TweenManager.lspkg/Tween
+      - "TweenManager.lspkg/Tween Examples [REMOVE_ME]__PUT_IN_ORTHO_CAM.prefab"
+      - TweenManager.lspkg/Tween/Tween.lsc
+      - TweenManager.lspkg/Tween/TweenManager.lsc
+      - TweenManager.lspkg/Tween/TweenTypes
+      - TweenManager.lspkg/Tween/TweenTypes/TweenAlpha.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenChain.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenColor.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenScreenTransform.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenTransform.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenValue.lsc
+      - TweenManager.lspkg/TweenManager__PLACE_IN_SCENE.prefab
+      - TweenManager.lspkg/package.native
+      - UIAssets/Awesome!!.png
+      - UIAssets/GAME OVER!!!.png
+      - UIAssets/GameBg 2.png
+      - UIAssets/GameBg.png
+      - UIAssets/Good!.png
+      - UIAssets/ImageMaterial 10.mat
+      - UIAssets/ImageMaterial 11.mat
+      - UIAssets/ImageMaterial 12.mat
+      - UIAssets/ImageMaterial 2.mat
+      - UIAssets/ImageMaterial 3.mat
+      - UIAssets/ImageMaterial 4.mat
+      - UIAssets/ImageMaterial 5.mat
+      - UIAssets/ImageMaterial 6.mat
+      - UIAssets/ImageMaterial 7.mat
+      - UIAssets/ImageMaterial 8.mat
+      - UIAssets/ImageMaterial 9.mat
+      - UIAssets/ImageMaterial.mat
+      - UIAssets/Indicator.png
+      - UIAssets/OUT!!!.png
+      - UIAssets/Perfection!!.png
+      - UIAssets/Played.png
+      - UIAssets/PowerBar.png
+      - UIAssets/TAP TO START.png
+      - UIAssets/TOO EARLY!!!.png
+      - flat.ss_graph
+      - image_unlit.ss_graph
+      - occluder.ss_graph
+      - pbr.ss_graph
+      - textures
+  options: 4

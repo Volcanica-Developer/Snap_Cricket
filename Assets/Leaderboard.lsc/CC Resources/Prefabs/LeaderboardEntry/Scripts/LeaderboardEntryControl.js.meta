@@ -1,0 +1,76 @@
+- !<AssetImportMetadata/c18ecbb6-3fb6-1ad2-474a-0f2aae7c46bc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6be96140-f983-46b9-9236-9be243d6982f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6be96140-f983-46b9-9236-9be243d6982f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1995301b-6378-4933-b6d7-fffa500a9e07
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1995301b-6378-4933-b6d7-fffa500a9e07>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 3
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: fad8d8dd-0ab8-471c-9ccc-95fea1cd920c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    backgroundImage: false
+    bitmojiImage: false
+    currentUserBitmojiBackground: false
+    currentUserBorderSceneObject: false
+    currentUserEntryBackground: false
+    currentUserTextColor: false
+    defaultBitmojiBackground: false
+    defaultEntryBackground: false
+    defaultTextColor: false
+    displayNameLength: false
+    displayNameTexts: false
+    invisiblePixel: false
+    materials: false
+    medalSceneObject: false
+    placeSceneObject: false
+    placeText: false
+    scoreText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - defaultTextColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      currentUserTextColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      defaultBitmojiBackground: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      currentUserBitmojiBackground: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      defaultEntryBackground: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      currentUserEntryBackground: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      displayNameLength: 15
+      scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      displayNameTexts: !<reference.Text[]>
+        []
+      bitmojiImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      placeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      medalSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      placeSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      currentUserBorderSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      backgroundImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      invisiblePixel: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      materials: !<reference.Material[]>
+        []
+  ScriptTypes:
+    -
+      {}

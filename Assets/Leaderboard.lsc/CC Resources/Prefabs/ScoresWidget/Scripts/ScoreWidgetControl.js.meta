@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/b44f7035-18a2-9b5e-420d-f0c85b70f922>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> dd1e4b49-d1c4-47cc-93dd-03889b4e85d3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> dd1e4b49-d1c4-47cc-93dd-03889b4e85d3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 05e5e8d0-0068-4dc1-b8bc-5e6434a9808b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/05e5e8d0-0068-4dc1-b8bc-5e6434a9808b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a401d0f9-9ad6-4f68-97ea-20fa47f3acd4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bgColorLeft: false
+    bgColorMiddle: false
+    bgColorRight: false
+    bimojiMaterials: false
+    bitmojiMaterialLeft: false
+    bitmojiMaterialMiddle: false
+    bitmojiMaterialRight: false
+    currentUserScore: false
+    friendsPlayedText: false
+    materials: false
+    texts: false
+    widgets: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - texts: !<reference.Text[]>
+        []
+      widgets: !<reference.SceneObject[]>
+        []
+      currentUserScore: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      friendsPlayedText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      bitmojiMaterialLeft: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      bitmojiMaterialMiddle: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      bitmojiMaterialRight: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      materials: !<reference.Material[]>
+        []
+      bimojiMaterials: !<reference.Material[]>
+        []
+      bgColorLeft: !<Vec4> {x: 0.929412, y: 0.933333, z: 0.937255, w: 1.000000}
+      bgColorMiddle: !<Vec4> {x: 0.819608, y: 0.827451, z: 0.835294, w: 1.000000}
+      bgColorRight: !<Vec4> {x: 0.764706, y: 0.772549, z: 0.780392, w: 1.000000}
+  ScriptTypes:
+    -
+      {}

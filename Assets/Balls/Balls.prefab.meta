@@ -1,0 +1,500 @@
+- !<AssetImportMetadata/806db407-3316-446a-84c8-9bea09888359>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 083d10ce-906a-4ef6-82bb-7a6f0353c279
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 083d10ce-906a-4ef6-82bb-7a6f0353c279
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> dbe4e15b-ccfd-4a09-9cc1-cd11bc872d1a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/05f33b0e-6d53-4016-44d3-51717dcca8f5>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 01c26297-1fe9-42cd-866e-165325f0783e
+  Mesh: !<reference> c3da4283-0091-4cac-a4bf-cdfd9c1ded1f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/08110062-e651-44a4-4e3e-23a522d9691a>
+  PrefabRemaps:
+    []
+  Name: Tennis_Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 20.178276, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 05f33b0e-6d53-4016-44d3-51717dcca8f5
+- !<RenderMeshVisual/0b30d3d8-d533-4e3e-4fca-4dfc37a52949>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 128bac7c-bb76-4e37-a5b0-ef52db0d57e1
+  Mesh: !<reference> e9e54242-503f-473e-833c-e9ecc4923987
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3236be74-864a-4159-6f1d-07aceb3b9bb0>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f318ccee-48cb-41c4-9ca3-90f19aa9bef4
+  Mesh: !<reference> 35c60533-7e62-4e94-84d9-76be69a9c157
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3865a3da-c3c7-488a-67d5-fadd0d542473>
+  PrefabRemaps:
+    []
+  Name: Magic_Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 20.178276, y: -20.924686, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6f4c80c1-baa0-4120-639d-fee2c9122c6c
+- !<RenderMeshVisual/6f4c80c1-baa0-4120-639d-fee2c9122c6c>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6d980828-48b6-4d9b-b4cb-ee152fc4aeb5
+  Mesh: !<reference> c2be98b2-ef1a-40e1-8932-e36d725800ba
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6fa04bc1-df5d-48e8-4d32-695d699d9cfa>
+  PrefabRemaps:
+    []
+  Name: Soccer_Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -40.670425, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b08419ec-9955-4c35-79dd-ee4dcf6c13bb
+- !<RenderMeshVisual/767b0af7-4f7b-4944-4138-7d6a321ab7ff>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 775c9fbc-14fa-4c0b-ad46-f017e89ba0f0
+  Mesh: !<reference> d27ca890-7e36-4654-8eb1-437741c46ac4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/800ee010-bf23-471e-689d-b0194fd17e3f>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e7a3542a-6853-4279-a8cd-bdc7a1cac1f9
+  Mesh: !<reference> dc0ddea1-8206-4f3e-b0f7-2a66753583fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8753629e-67c9-4109-7bdc-a3d0103543d1>
+  PrefabRemaps:
+    []
+  Name: Cricket Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -19.933424, y: -20.924686, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 999a1049-ff8f-48da-4fa6-46633c489a56
+- !<RenderMeshVisual/8918d0c4-801c-494a-7dbf-6d647f15983b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8aceedba-34fd-4d9b-9af2-e50a02ecad98
+  Mesh: !<reference> cf06bfe3-62f7-4ba9-8548-4e8b7c909d3a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8aea3dc9-ed41-4632-4e6e-113a626e19e5>
+  PrefabRemaps:
+    []
+  Name: Poke_Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -19.933424, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8e583074-2728-49b0-4729-ea6029002ec2
+    - !<own> c71ddf54-132f-404b-6616-4323409bdc8e
+    - !<own> 0b30d3d8-d533-4e3e-4fca-4dfc37a52949
+    - !<own> d2d89583-9b97-4bd4-5c69-9ac139918357
+- !<RenderMeshVisual/8b45f575-ae5c-4f26-476e-575b4d16b259>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8e4d4b8b-6b7e-4b02-8d06-3bfb195ff3ec
+  Mesh: !<reference> a8e358fc-55a0-4588-ae7b-63bfdf0e230e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8e583074-2728-49b0-4729-ea6029002ec2>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e3aeadd6-7c4c-4828-9c76-e6f2fb66343c
+  Mesh: !<reference> 39aa00b9-fe3d-4107-877b-ea37573ba0f1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/934a1439-7391-4634-5a44-d8c3c312048f>
+  PrefabRemaps:
+    []
+  Name: Smoke_Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.198076, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 767b0af7-4f7b-4944-4138-7d6a321ab7ff
+- !<RenderMeshVisual/999a1049-ff8f-48da-4fa6-46633c489a56>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 74a9e0df-86ec-4f4f-85b8-e2814bc037c2
+  Mesh: !<reference> e296d0ad-bb56-4d61-9bc7-79342ac548c4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/a1b8909b-04e4-4893-77ef-0db0815409bd>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 67dda054-ff2d-49e0-b8f8-98e506016ecb
+  Mesh: !<reference> 330d9839-1341-4c86-be8a-cd336ceca8a7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a6f7164f-7b3b-495e-745b-0b8f7ffe81dc>
+  PrefabRemaps:
+    []
+  Name: V_Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 39.552975, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a1b8909b-04e4-4893-77ef-0db0815409bd
+    - !<own> 8b45f575-ae5c-4f26-476e-575b4d16b259
+    - !<own> 800ee010-bf23-471e-689d-b0194fd17e3f
+- !<RenderMeshVisual/b08419ec-9955-4c35-79dd-ee4dcf6c13bb>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ae59cb4a-157b-4116-94e5-7c6a598861d3
+  Mesh: !<reference> e65905c9-8f20-450b-a527-eb43597a3770
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b6e8f06a-fb22-40f4-4408-c483b2b0ab5f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 10104279-e81e-452c-a3a9-09a026262b9c
+  Mesh: !<reference> d0a62485-66f7-4102-a183-65fb140d6c76
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c71ddf54-132f-404b-6616-4323409bdc8e>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c38a2856-ccfb-4258-b5aa-106a7468e76a
+  Mesh: !<reference> 245837a1-9ded-4b8e-84fc-73c2d15acae5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/d2d89583-9b97-4bd4-5c69-9ac139918357>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4f860279-f971-46c3-a401-afaec4445353
+  Mesh: !<reference> e40d5967-a03a-4fcf-8e8e-f252f815bb2a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d502e318-3e18-43dc-4c14-9f5562917f1d>
+  PrefabRemaps:
+    []
+  Name: Golf_Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.198088, y: -20.924686, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3236be74-864a-4159-6f1d-07aceb3b9bb0
+- !<SceneObject/d8b89b98-43d8-4928-71a3-7ef82d4b3e7a>
+  PrefabRemaps:
+    []
+  Name: Balls
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f468826d-d365-4b51-6b5d-f8093c4f2072
+    - !<own> e0d1bc27-b963-4450-71a9-50e7108dd786
+    - !<own> a6f7164f-7b3b-495e-745b-0b8f7ffe81dc
+    - !<own> 3865a3da-c3c7-488a-67d5-fadd0d542473
+    - !<own> 934a1439-7391-4634-5a44-d8c3c312048f
+    - !<own> 6fa04bc1-df5d-48e8-4d32-695d699d9cfa
+    - !<own> 08110062-e651-44a4-4e3e-23a522d9691a
+    - !<own> 8753629e-67c9-4109-7bdc-a3d0103543d1
+    - !<own> d502e318-3e18-43dc-4c14-9f5562917f1d
+    - !<own> 8aea3dc9-ed41-4632-4e6e-113a626e19e5
+  Components:
+    []
+- !<ObjectPrefabAssetData/dbe4e15b-ccfd-4a09-9cc1-cd11bc872d1a>
+  Prototype: !<ObjectOwner/69ec6f91-9acc-41bf-b40c-f89ea8224063>
+    PackagePath: ""
+    objects:
+      - !<own> d8b89b98-43d8-4928-71a3-7ef82d4b3e7a
+- !<SceneObject/e0d1bc27-b963-4450-71a9-50e7108dd786>
+  PrefabRemaps:
+    []
+  Name: Pixar_Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 39.552975, y: -20.924686, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b6e8f06a-fb22-40f4-4408-c483b2b0ab5f
+- !<SceneObject/f468826d-d365-4b51-6b5d-f8093c4f2072>
+  PrefabRemaps:
+    []
+  Name: BeachBall
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -40.670425, y: -20.924686, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8918d0c4-801c-494a-7dbf-6d647f15983b

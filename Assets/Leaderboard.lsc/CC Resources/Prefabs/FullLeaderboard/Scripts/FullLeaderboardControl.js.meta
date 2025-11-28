@@ -1,0 +1,93 @@
+- !<AssetImportMetadata/88654384-55f8-f0a7-d346-cd9e9c00a614>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a3096077-4b9d-4374-8703-be0abde32726
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a3096077-4b9d-4374-8703-be0abde32726
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 03901eda-7520-47ef-93fd-caade73d3222
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/03901eda-7520-47ef-93fd-caade73d3222>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 3
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 45554002-109e-4037-ac8d-28e4195de513
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    backgroundCustomisationScreenTransform: false
+    bitmojiHeaderImage: false
+    customTextureImage: false
+    entriesFooterScreenTransform: false
+    entriesHeaderScreenTransform: false
+    entriesNormalizedScreenTransform: false
+    entriesParentScreenTransform: false
+    entriesSceneObject: false
+    entriesScreenTransform: false
+    entriesTouchZoneScreenTransform: false
+    globalExactRankText: false
+    headerTopScore: false
+    invisibleMaterial: false
+    leaderboardEntriesFooter: false
+    leaderboardEntriesHeader: false
+    leaderboardName: false
+    masking: false
+    materials: false
+    postEffects: false
+    regularHeaderChild: false
+    resetsText: false
+    timeText: false
+    timerMaterial: false
+    timerSceneObjects: false
+    touchZoneSceneObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - entriesParentScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      entriesHeaderScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      entriesTouchZoneScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      entriesScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      entriesNormalizedScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      entriesFooterScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      backgroundCustomisationScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      touchZoneSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      entriesSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      regularHeaderChild: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leaderboardEntriesHeader: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leaderboardEntriesFooter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      globalExactRankText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      timeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      headerTopScore: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      resetsText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      leaderboardName: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      bitmojiHeaderImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      customTextureImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      timerMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      invisibleMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      materials: !<reference.Material[]>
+        []
+      postEffects: !<reference.SceneObject[]>
+        []
+      timerSceneObjects: !<reference.SceneObject[]>
+        []
+      masking: !<reference.MaskingComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

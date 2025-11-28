@@ -1,0 +1,153 @@
+- !<NativePackageDescriptor/78797b27-12ae-464c-923f-b99cd854a72e>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 16
+    patch: 1
+    build: 25112007
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Leaderboard
+    Description:
+    A real-time ranking component that displays user scores, helping users track their progress and compare with friends and users worldwide.
+    If the list of friends is big - the leaderboard becomes scrollable. Global leaderboard will show bitmoji stickers and scores among all snapchatters who submitted scores in this leaderboard. Friends leaderboard will only show friends.
+    Changing of Leaderboard name results in Leaderboard reset.
+    Developers don’t have access to  Snapchatters' scores/ranks.
+    
+    
+    interface LeaderboardComponent \{
+       submitScore(score: number): void
+       show(duration?: number): void
+       hide(duration?: number): void
+       initializeWithOptions(leaderboardInitializationOptions: LeaderboardInitializationOptions): void
+       getLeaderboard(): Promise<Leaderboard>
+       getCurrentUser(): Promise<SnapchatUser>
+       getCurrentUserBitmoji(): Promise<Texture>
+       getSideSwitcher(): SideSwitcher
+       showScoreWidget(duration?: number): void
+       hideScoreWidget(duration?: number): void
+       setLeaderboardName(name: string): void
+       visible: boolean
+       isScoreWidgetReady: boolean
+       //Events:
+       onLeaderboardRecordsUpdated: Event<LeaderboardRecordsWrapper>
+       onShow: Event
+       onHide: Event
+       onShown: Event
+       onHidden: Event
+    \}
+    
+    
+    export enum ScoreResetIntervalOption \{
+       Day = 0,
+       Week = 1,
+       Month = 2,
+       Year = 3
+    \}
+    
+    export type LeaderboardInitializationOptions = \{
+       name: string;
+       userType: Leaderboard.UsersType;
+       scoreOrdering: Leaderboard.OrderingType;
+       scoreResetInterval: ScoreResetIntervalOption;
+       userLimit: number;
+       useTimer: boolean;
+       leaderboardStartDate?: string; // format "mm/dd/yyyy"
+    \};
+    
+    export type LeaderboardRecordsWrapper = \{
+       userRecords: Leaderboard.UserRecord[]
+       currentUserRecord: Leaderboard.UserRecord | null
+    \}
+    
+    interface Tooltip extends BaseScriptComponent \{
+       autostart: boolean,
+       label: string,
+       show(): void,
+       hide(): void,
+       direction: "Left"|"Right"|"Top"|"Bottom",
+    \}
+    
+    interface SideSwitcher extends ScriptComponent \{
+       switchToNext(): void
+       switchTo(icon: number): void
+       show(): void
+       hide(): void
+       disableIconBackground(): void
+       enableIconBackground(): void
+       enableInteractable(): void
+       disableInteractable(): void
+       tooltip?: Tooltip
+       visible: boolean
+       activeIconIndex: number
+       eventTag: string
+       iconOpacity: number
+       backgroundOpacity: number
+       icons: Texture[]
+       onSwitch: Event<number>
+       onShow: Event<number>
+       onHide: Event<number>
+    \}
+    
+    API Events Usage:
+    //@input Component.ScriptComponent Leaderboard
+    script.Leaderboard.onLeaderboardRecordsUpdated.add((leaderboardRecordsWrapper) => \{
+       print(leaderboardRecordsWrapper.userRecords)
+       print(leaderboardRecordsWrapper.currentUserRecord)
+    \});
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.05259 10.6202L9.98973 10.0091L10.2846 12.3909L6.5004 12.8593C6.66657 13.7384 7.04363 14.6453 7.66589 15.3943C8.51016 16.4106 9.86449 17.2111 11.9886 17.2111V19.6111C9.17551 19.6111 7.13555 18.5117 5.81983 16.928C4.53561 15.3821 4 13.449 4 11.8111C4 11.2054 4.45144 10.6946 5.05259 10.6202Z" fill="#DEE6ED"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M26.9474 10.6202L22.0103 10.0091L21.7154 12.3909L25.4996 12.8593C25.3334 13.7384 24.9564 14.6453 24.3341 15.3943C23.4898 16.4106 22.1355 17.2111 20.0114 17.2111V19.6111C22.8245 19.6111 24.8645 18.5117 26.1802 16.928C27.4644 15.3821 28 13.449 28 11.8111C28 11.2054 27.5486 10.6946 26.9474 10.6202Z" fill="#DEE6ED"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2 22.6613C17.2 22.1632 17.5297 21.7332 17.9718 21.5038C20.9897 19.9376 23.2 15.0527 23.2 11.2111C23.2 6.97004 22.6986 6.97315 17.5699 7.00492C17.0885 7.0079 16.5664 7.01113 16 7.01113C11.8064 7.01113 10.0553 6.86214 9.32416 7.6544C8.8 8.22235 8.8 9.27404 8.8 11.2111C8.8 15.0527 11.0103 19.9376 14.0282 21.5038C14.4703 21.7332 14.8 22.1632 14.8 22.6613C14.8 23.2902 14.2902 23.8 13.6613 23.8H12.0649C11.5484 23.8 11.0898 24.1305 10.9265 24.6205L10.5265 25.8205C10.2675 26.5975 10.8458 27.4 11.6649 27.4H20.3351C21.1542 27.4 21.7325 26.5975 21.4735 25.8205L21.0735 24.6205C20.9102 24.1305 20.4516 23.8 19.9351 23.8H18.3387C17.7098 23.8 17.2 23.2902 17.2 22.6613Z" fill="#DEE6ED"/>
+    </svg>
+
+  SetupScript:
+    code: |
+      return async function instantiate(asset, scene, target, instantiator) {
+          try {
+              console.log("Instantiating " + asset.name);
+              const utils = instantiator.getUtils();
+      
+              target = utils.createScreenTransformObject(scene, target).sceneObject;
+              target.name = asset.name;
+              const leaderboardComponent = instantiator.createScriptComponent(target, asset);
+              // set today's date in mm/dd/yyyy format
+              const date = new Date();
+              const day = String(date.getDate()).padStart(2, '0');
+              const month = String(date.getMonth() + 1).padStart(2, '0');
+              const year = date.getFullYear();
+              leaderboardComponent.leaderboardStartDate = month + '/' + day + '/' + year;
+              console.log("Leaderboard added successfully");
+          } catch (e) {
+              console.error(e, "\n" + e.stack);
+              console.log(`Couldn't add ${asset.name} to scene automatically, falling back to default behavior.`);
+              instantiator.defaultInstantiate(asset, scene, target);
+          }
+      };
+
+  VersionMajor: 3
+  VersionMinor: 1
+  VersionPatch: 2
+  UpdateCheckpoint: 81
+  ExportUid: 20c14fbe-ba28-430d-b943-b190bf539fb0
+  ComponentUid: 32747b76-d3f1-4a92-80d0-fcd5c5cd377b
+  PackagePolicy: CanBeUnpacked
+  ReadMe: !<reference> 2b55fcb4-9f67-4154-a598-8102d7709462
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> f35db787-be82-4edc-9413-dc356f19ad1f
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: Leaderboard
+    AssetId: 4AguLGhKeotTnF0Nhhofhw
+    Hash: fd3ea999213406dce2a473a3b989060a
+    Version:
+      major: 3
+      minor: 1
+      patch: 2
+      build: 0

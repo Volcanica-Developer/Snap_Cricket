@@ -1,0 +1,111 @@
+- !<AssetImportMetadata/7608d80a-7c0c-5b34-d039-1f12973d8e2e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ba000574-dc88-4085-81f9-b7b2c3c780b3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ba000574-dc88-4085-81f9-b7b2c3c780b3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6c881c12-96df-44a7-aa77-87ad7293a9e6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6c881c12-96df-44a7-aa77-87ad7293a9e6>
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M25 19C24.6645 19 24.3349 19.0251 24.0137 19.0732L22.751 21.207H20.123C19.6268 21.7861 19.2427 22.4552 19 23.1846L20.0527 25.0449L19.0098 26.8438C19.2626 27.5905 19.6646 28.2725 20.1826 28.8594L22.751 28.793L23.9258 30.9102C24.2749 30.9674 24.6337 31 25 31C25.3349 31 25.6636 30.9738 25.9844 30.9258L27.2471 28.793H29.877C30.3663 28.2219 30.7471 27.5634 30.9902 26.8457L29.9443 25.0449L30.999 23.1816C30.7468 22.4249 30.3422 21.7331 29.8184 21.1396L27.2471 21.207L26.0732 19.0879C25.7244 19.0308 25.3659 19 25 19ZM24.998 22.4287C26.4879 22.4287 27.6953 23.5799 27.6953 25C27.6951 26.42 26.4878 27.5713 24.998 27.5713C23.5083 27.5713 22.301 26.42 22.3008 25C22.3008 23.5798 23.5082 22.4287 24.998 22.4287Z" fill="#DEE6ED"/>
+    <path d="M16 7.01123C16.5664 7.01123 17.0889 7.00738 17.5703 7.00439C22.231 6.97553 23.0664 6.9709 23.1807 10.1538L26.9473 10.6196C27.5484 10.694 28 11.2053 28 11.811C28 13.4489 27.4639 15.3824 26.1797 16.9282C26.1408 16.975 26.0987 17.019 26.0586 17.0649C25.7132 17.0221 25.3598 16.9995 25 16.9995C24.6737 16.9995 24.3509 17.0176 24.0332 17.0532L23.7168 17.0952L22.7764 17.2358L21.6104 19.2065H19.2031L18.6045 19.9048C17.9447 20.6746 17.4294 21.5702 17.1025 22.5522L16.8213 23.396L17.748 25.0317L16.8242 26.6255L17.0869 27.3999H11.665C10.8461 27.3999 10.2677 26.5977 10.5264 25.8208L10.9268 24.6206C11.09 24.1307 11.5481 23.8005 12.0645 23.8003H13.6611C14.2898 23.8003 14.7995 23.2903 14.7998 22.6616C14.7998 22.1635 14.4704 21.7329 14.0283 21.5034C13.2174 21.0826 12.4659 20.4214 11.7988 19.606C9.0839 19.5576 7.10627 18.4759 5.82031 16.9282C4.53612 15.3824 4.00002 13.4489 4 11.811C4 11.2053 4.45159 10.694 5.05273 10.6196L8.80664 10.1548C8.82332 8.87377 8.90457 8.10853 9.32422 7.65381C10.0555 6.86184 11.8068 7.01123 16 7.01123ZM6.5 12.8589C6.66617 13.738 7.04376 14.645 7.66602 15.394C8.23946 16.0843 9.04841 16.674 10.1738 16.9819C9.51606 15.5786 9.06398 14.035 8.88574 12.564L6.5 12.8589ZM23.1133 12.564C22.935 14.0351 22.483 15.5785 21.8252 16.9819C22.9511 16.674 23.7604 16.0845 24.334 15.394C24.9562 14.645 25.3338 13.738 25.5 12.8589L23.1133 12.564Z" fill="#47B8A9"/>
+    </svg>
+
+  SetupScript:
+    code: |
+      return async function instantiate(asset, scene, target, instantiator) {
+          try {
+              console.log(`Instantiating ${asset.name}`);
+              const leaderboardComponent = instantiator.defaultInstantiate(asset, scene, target);
+              // set today's date in mm/dd/yyyy format
+              const date = new Date();
+              const day = String(date.getDate()).padStart(2, '0');
+              const month = String(date.getMonth() + 1).padStart(2, '0');
+              const year = date.getFullYear();
+              leaderboardComponent.leaderboardStartDate = month + '/' + day + '/' + year;
+          } catch (e) {
+              console.error(e, "\n" + e.stack);
+          }
+      };
+
+  Description: |-
+    LeaderboardCore is a lightweight, logic-only component that powers real-time score tracking via Snapchat’s leaderboard system.
+    
+    This component exposes all core leaderboard APIs — including initialization, score submission, and user rank queries — while letting developers handle their own custom visuals and game logic.
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: 1c439034-a71a-45f4-9dd4-77fd351d26fa
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoInitialize: false
+    bitmojiModule: true
+    customStickerId: false
+    debugMode: false
+    entriesCount: false
+    leaderboardModule: true
+    leaderboardName: false
+    leaderboardStartDate: false
+    printDebugStatements: false
+    printWarningStatements: false
+    remoteMediaModule: true
+    scoreLifetimeOption: false
+    scoreOrdering: false
+    scoreToSubmit: false
+    userLimit: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> d1cd2782-efdd-4678-ab38-85ecbce2ac27
+  DeclarationFile: !<reference> 22fc13a7-ba20-4f1b-b9ba-e55e64ccf8a7
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - autoInitialize: true
+      leaderboardName: name
+      userLimit: 10
+      scoreLifetimeOption: 3
+      leaderboardStartDate: 12/31/2024
+      scoreOrdering: 1
+      customStickerId: ""
+      bitmojiModule: !<reference.BitmojiModule> bc24cc0c-473c-4cf3-b875-6a9b6963eee3
+      remoteMediaModule: !<reference.RemoteMediaModule> 2f268c65-d2ff-44aa-be05-b291a8a4269d
+      leaderboardModule: !<reference.LeaderboardModule> b64949b3-b8e6-4e2f-9ebb-ef25f6f223d5
+      debugMode: 0
+      entriesCount: 10
+      scoreToSubmit: 100
+      printDebugStatements: true
+      printWarningStatements: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input boolean autoInitialize = "true"'
+    - '// @ui {"widget":"label", "label":"You can find an example of initialization here: <a href=\"https://developers.snap.com/lens-studio/features/games/leaderboard#initializeWithOptions\">developers.snap.com/&hellip;/leaderboard</a>", "showIf":"autoInitialize", "showIfValue":false}'
+    - '// @input string leaderboardName {"hint":"Changing leaderboard name will reset scores", "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @input int userLimit = "10" {"hint":"Maximum user limit is 50", "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @input int scoreLifetimeOption = "3" {"label":"Score Reset Interval", "widget":"combobox", "values":[{"label":"Day", "value":0}, {"label":"Week", "value":1}, {"label":"Month", "value":2}, {"label":"Year", "value":3}], "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @input string leaderboardStartDate = "12/31/2024" {"label":"Score Reset Anchor", "hint":"In format mm/dd/yyyy, this is the start date for the recurring score reset interval.<br>For example, if you select \"Week\" as the Score Reset Interval and set this date to 12/31/2024, the leaderboard will reset every week on Tuesday.", "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @input int scoreOrdering = "1" {"widget":"combobox", "values":[{"label":"Descending", "value":1}, {"label":"Ascending", "value":2}], "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @input string customStickerId {"hint":"Please enter bitmoji sticker id or leave empty to use selfie sticker"}'
+    - '// @ui {"widget":"separator"}'
+    - // @input Asset.BitmojiModule bitmojiModule
+    - // @input Asset.RemoteMediaModule remoteMediaModule
+    - // @input Asset.LeaderboardModule leaderboardModule
+    - '// @input int debugMode = "0" {"widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"Submit score", "value":1}, {"label":"Custom entries count", "value":2}]}'
+    - '// @input int entriesCount = "10"'
+    - '// @input int scoreToSubmit = "100" {"showIf":"debugMode", "showIfValue":1}'
+    - '// @input bool printDebugStatements = "true" {"label":"Print Info"}'
+    - '// @input bool printWarningStatements = "true" {"label":"Print Warnings"}'

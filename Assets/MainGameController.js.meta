@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/3baeb9ae-9f9a-49a4-b5e7-472b20ffc3a6>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 42ef67c6-edb1-48f1-a7ad-4ad5fe62c679
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 42ef67c6-edb1-48f1-a7ad-4ad5fe62c679
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> f58c673f-823e-4f51-a91a-2863e9f9d9e4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f58c673f-823e-4f51-a91a-2863e9f9d9e4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b9b2b11d-0d5a-4624-a3d0-cc6b63ad7aca
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    AfterBounce_Tween: false
+    BeforeBounce_Tween: false
+    Leaderboard: false
+    debugText: false
+    highScoreText: false
+    hitQualityDebugText: false
+    myPrefab: false
+    scoreText: false
+    secondsText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - myPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      BeforeBounce_Tween: ""
+      AfterBounce_Tween: ""
+      debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hitQualityDebugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      secondsText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      highScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      Leaderboard: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

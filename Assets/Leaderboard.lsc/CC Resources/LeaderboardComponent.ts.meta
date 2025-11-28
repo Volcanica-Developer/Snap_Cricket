@@ -1,0 +1,259 @@
+- !<AssetImportMetadata/f6f658c2-dbfa-cd0d-2f23-40d49140cc58>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f35db787-be82-4edc-9413-dc356f19ad1f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f35db787-be82-4edc-9413-dc356f19ad1f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3f2b309a-95e8-43cc-9dd3-7f5d9b5e4b8e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3f2b309a-95e8-43cc-9dd3-7f5d9b5e4b8e>
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.05259 10.6202L9.98973 10.0091L10.2846 12.3909L6.5004 12.8593C6.66657 13.7384 7.04363 14.6453 7.66589 15.3943C8.51016 16.4106 9.86449 17.2111 11.9886 17.2111V19.6111C9.17551 19.6111 7.13555 18.5117 5.81983 16.928C4.53561 15.3821 4 13.449 4 11.8111C4 11.2054 4.45144 10.6946 5.05259 10.6202Z" fill="#DEE6ED"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M26.9474 10.6202L22.0103 10.0091L21.7154 12.3909L25.4996 12.8593C25.3334 13.7384 24.9564 14.6453 24.3341 15.3943C23.4898 16.4106 22.1355 17.2111 20.0114 17.2111V19.6111C22.8245 19.6111 24.8645 18.5117 26.1802 16.928C27.4644 15.3821 28 13.449 28 11.8111C28 11.2054 27.5486 10.6946 26.9474 10.6202Z" fill="#DEE6ED"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2 22.6613C17.2 22.1632 17.5297 21.7332 17.9718 21.5038C20.9897 19.9376 23.2 15.0527 23.2 11.2111C23.2 6.97004 22.6986 6.97315 17.5699 7.00492C17.0885 7.0079 16.5664 7.01113 16 7.01113C11.8064 7.01113 10.0553 6.86214 9.32416 7.6544C8.8 8.22235 8.8 9.27404 8.8 11.2111C8.8 15.0527 11.0103 19.9376 14.0282 21.5038C14.4703 21.7332 14.8 22.1632 14.8 22.6613C14.8 23.2902 14.2902 23.8 13.6613 23.8H12.0649C11.5484 23.8 11.0898 24.1305 10.9265 24.6205L10.5265 25.8205C10.2675 26.5975 10.8458 27.4 11.6649 27.4H20.3351C21.1542 27.4 21.7325 26.5975 21.4735 25.8205L21.0735 24.6205C20.9102 24.1305 20.4516 23.8 19.9351 23.8H18.3387C17.7098 23.8 17.2 23.2902 17.2 22.6613Z" fill="#DEE6ED"/>
+    </svg>
+
+  SetupScript:
+    code: |
+      return async function instantiate(asset, scene, target, instantiator) {
+          try {
+              console.log("Instantiating " + asset.name);
+              const utils = instantiator.getUtils();
+      
+              target = utils.createScreenTransformObject(scene, target).sceneObject;
+              target.name = asset.name;
+              const leaderboardComponent = instantiator.createScriptComponent(target, asset);
+              // set today's date in mm/dd/yyyy format
+              const date = new Date();
+              const day = String(date.getDate()).padStart(2, '0');
+              const month = String(date.getMonth() + 1).padStart(2, '0');
+              const year = date.getFullYear();
+              leaderboardComponent.leaderboardStartDate = month + '/' + day + '/' + year;
+              console.log("Leaderboard added successfully");
+          } catch (e) {
+              console.error(e, "\n" + e.stack);
+              console.log(`Couldn't add ${asset.name} to scene automatically, falling back to default behavior.`);
+              instantiator.defaultInstantiate(asset, scene, target);
+          }
+      };
+
+  Description: |-
+    Leaderboard
+    Description:
+    A real-time ranking component that displays user scores, helping users track their progress and compare with friends and users worldwide.
+    If the list of friends is big - the leaderboard becomes scrollable. Global leaderboard will show bitmoji stickers and scores among all snapchatters who submitted scores in this leaderboard. Friends leaderboard will only show friends.
+    Changing of Leaderboard name results in Leaderboard reset.
+    Developers don’t have access to  Snapchatters' scores/ranks.
+    
+    
+    interface LeaderboardComponent \{
+       submitScore(score: number): void
+       show(duration?: number): void
+       hide(duration?: number): void
+       initializeWithOptions(leaderboardInitializationOptions: LeaderboardInitializationOptions): void
+       getLeaderboard(): Promise<Leaderboard>
+       getCurrentUser(): Promise<SnapchatUser>
+       getCurrentUserBitmoji(): Promise<Texture>
+       getSideSwitcher(): SideSwitcher
+       showScoreWidget(duration?: number): void
+       hideScoreWidget(duration?: number): void
+       setLeaderboardName(name: string): void
+       visible: boolean
+       isScoreWidgetReady: boolean
+       //Events:
+       onLeaderboardRecordsUpdated: Event<LeaderboardRecordsWrapper>
+       onShow: Event
+       onHide: Event
+       onShown: Event
+       onHidden: Event
+    \}
+    
+    
+    export enum ScoreResetIntervalOption \{
+       Day = 0,
+       Week = 1,
+       Month = 2,
+       Year = 3
+    \}
+    
+    export type LeaderboardInitializationOptions = \{
+       name: string;
+       userType: Leaderboard.UsersType;
+       scoreOrdering: Leaderboard.OrderingType;
+       scoreResetInterval: ScoreResetIntervalOption;
+       userLimit: number;
+       useTimer: boolean;
+       leaderboardStartDate?: string; // format "mm/dd/yyyy"
+    \};
+    
+    export type LeaderboardRecordsWrapper = \{
+       userRecords: Leaderboard.UserRecord[]
+       currentUserRecord: Leaderboard.UserRecord | null
+    \}
+    
+    interface Tooltip extends BaseScriptComponent \{
+       autostart: boolean,
+       label: string,
+       show(): void,
+       hide(): void,
+       direction: "Left"|"Right"|"Top"|"Bottom",
+    \}
+    
+    interface SideSwitcher extends ScriptComponent \{
+       switchToNext(): void
+       switchTo(icon: number): void
+       show(): void
+       hide(): void
+       disableIconBackground(): void
+       enableIconBackground(): void
+       enableInteractable(): void
+       disableInteractable(): void
+       tooltip?: Tooltip
+       visible: boolean
+       activeIconIndex: number
+       eventTag: string
+       iconOpacity: number
+       backgroundOpacity: number
+       icons: Texture[]
+       onSwitch: Event<number>
+       onShow: Event<number>
+       onHide: Event<number>
+    \}
+    
+    API Events Usage:
+    //@input Component.ScriptComponent Leaderboard
+    script.Leaderboard.onLeaderboardRecordsUpdated.add((leaderboardRecordsWrapper) => \{
+       print(leaderboardRecordsWrapper.userRecords)
+       print(leaderboardRecordsWrapper.currentUserRecord)
+    \});
+  VersionMajor: 3
+  VersionMinor: 1
+  VersionPatch: 2
+  ComponentUid: 32747b76-d3f1-4a92-80d0-fcd5c5cd377b
+  ExportUid: 20c14fbe-ba28-430d-b943-b190bf539fb0
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoInitialize: false
+    backgroundCustomization: false
+    backgroundTexture: false
+    bitmojiModule: true
+    componentDependencies: true
+    customStickerId: false
+    debugMode: true
+    delayTime: false
+    endStateOption: false
+    entriesCount: false
+    headerOption: false
+    hideScoreWidgetOption: false
+    leaderboardEntry: false
+    leaderboardModule: true
+    leaderboardName: false
+    leaderboardStartDate: false
+    leaderboardVisuals: true
+    printDebugStatements: false
+    printWarningStatements: false
+    remoteMediaModule: true
+    renderOrder: false
+    scoreLifetimeOption: false
+    scoreOrdering: false
+    scoreToSubmit: false
+    scoreWidgetPrefab: false
+    testingScenario: false
+    useBackgroundBlur: false
+    useNotification: false
+    useScoreWidget: false
+    userLimit: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 2b55fcb4-9f67-4154-a598-8102d7709462
+  DeclarationFile: !<reference> 54889f5d-55cb-44fa-b3d6-de811e91e18f
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - autoInitialize: true
+      leaderboardName: name
+      userLimit: 10
+      scoreLifetimeOption: 3
+      leaderboardStartDate: 12/31/2024
+      scoreOrdering: 1
+      bitmojiModule: !<reference.BitmojiModule> bc24cc0c-473c-4cf3-b875-6a9b6963eee3
+      remoteMediaModule: !<reference.RemoteMediaModule> 2f268c65-d2ff-44aa-be05-b291a8a4269d
+      leaderboardModule: !<reference.LeaderboardModule> b64949b3-b8e6-4e2f-9ebb-ef25f6f223d5
+      debugMode: 0
+      headerOption: 1
+      backgroundCustomization: 0
+      backgroundTexture: !<reference.Texture> 0a3850df-88c1-4c03-ba5e-564d87534dba
+      customStickerId: !<string> 35824076
+      useBackgroundBlur: false
+      leaderboardVisuals: !<reference.ObjectPrefab> 27400846-1018-49d1-bd75-1c78409afa7b
+      componentDependencies: !<reference.ObjectPrefab> 290d1fe6-2e1d-4dc5-8131-790fde695daf
+      useNotification: true
+      useScoreWidget: true
+      hideScoreWidgetOption: 0
+      delayTime: 1.250000
+      endStateOption: 2
+      leaderboardEntry: !<reference.ObjectPrefab> 5777fa32-5b75-4184-8b98-bb9a4c92151b
+      scoreWidgetPrefab: !<reference.ObjectPrefab> 72aaa69a-92c4-4c5a-a38c-d983f4a0bc97
+      renderOrder: 1
+      testingScenario: 0
+      entriesCount: 10
+      scoreToSubmit: 100
+      printDebugStatements: true
+      printWarningStatements: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input boolean autoInitialize = "true"'
+    - '// @ui {"widget":"label", "label":"You can find an example of initialization here: <a href=\"https://developers.snap.com/lens-studio/features/games/leaderboard#initializeWithOptions\">developers.snap.com/&hellip;/leaderboard</a>", "showIf":"autoInitialize", "showIfValue":false}'
+    - '// @input string leaderboardName {"hint":"Changing leaderboard name will reset scores", "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @input int userLimit = "10" {"hint":"Maximum user limit is 50", "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @input int scoreLifetimeOption = "3" {"label":"Score Reset Interval", "widget":"combobox", "values":[{"label":"Day", "value":0}, {"label":"Week", "value":1}, {"label":"Month", "value":2}, {"label":"Year", "value":3}], "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @input string leaderboardStartDate = "12/31/2024" {"label":"Score Reset Anchor", "hint":"In format mm/dd/yyyy, this is the start date for the recurring score reset interval.<br>For example, if you select \"Week\" as the Score Reset Interval and set this date to 12/31/2024, the leaderboard will reset every week on Tuesday.", "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @input int scoreOrdering = "1" {"widget":"combobox", "values":[{"label":"Descending", "value":1}, {"label":"Ascending", "value":2}], "showIf":"autoInitialize", "showIfValue":true}'
+    - '// @ui {"widget":"separator"}'
+    - // @input Asset.BitmojiModule bitmojiModule
+    - // @input Asset.RemoteMediaModule remoteMediaModule
+    - // @input Asset.LeaderboardModule leaderboardModule
+    - '// @input int debugMode = "0" {"widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"Submit score", "value":1}, {"label":"Custom entries count", "value":2}]}'
+    - '// @ui {"widget":"group_start", "label":"Customization"}'
+    - '// @input int headerOption = "1" {"widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"Title", "value":1}, {"label":"Top Score", "value":2}]}'
+    - '// @input int backgroundCustomization = "0" {"label":"Custom Background", "widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"Bitmoji", "value":1}, {"label":"Texture", "value":2}]}'
+    - '// @input Asset.Texture backgroundTexture {"showIf":"backgroundCustomization", "showIfValue":2}'
+    - '// @input string customStickerId {"hint":"Please enter bitmoji sticker id or leave empty to use selfie sticker", "showIf":"backgroundCustomization", "showIfValue":1}'
+    - '// @input bool useBackgroundBlur {"label":"Background Blur"}'
+    - '// @ui {"widget":"group_end"}'
+    - // @input Asset.ObjectPrefab leaderboardVisuals
+    - // @input Asset.ObjectPrefab componentDependencies
+    - '// @ui {"widget":"group_start", "label":"Start state"}'
+    - '// @input bool useNotification = true {"label":"Notification"}'
+    - // @input bool useScoreWidget
+    - '// @input int hideScoreWidgetOption = "1" {"widget":"combobox", "values":[{"label":"Delay", "value":0}, {"label":"Manual", "value":1}], "showIf":"useScoreWidget", "showIfValue":true}'
+    - '// @ui {"widget":"label", "label":"Use .showScoreWidget() .hideScoreWidget() api", "showIf":"hideScoreWidgetOption", "showIfValue":1}'
+    - '// @input float delayTime {"showIf":"hideScoreWidgetOption", "showIfValue":0}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"End state"}'
+    - '// @input int endStateOption = "2" {"label":"On Submit Score", "widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"Side Switcher", "value":1}, {"label":"Leaderboard", "value":2}]}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Customizable Prefabs", "showIf":"customisablePrefabs"}'
+    - '// @input Asset.ObjectPrefab leaderboardEntry {"hint":"This Prefab contains LeaderboardEntry script which can be customized"}'
+    - // @input Asset.ObjectPrefab scoreWidgetPrefab
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input int renderOrder = "1"'
+    - '// @input int testingScenario = "0" {"label":"Debugging", "widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"ScoreSubmit", "value":1}, {"label":"ScoresWidget", "value":2}]}'
+    - '// @input int entriesCount = "10"'
+    - '// @input int scoreToSubmit = "100" {"showIf":"testingScenario", "showIfValue":1}'
+    - '// @input bool printDebugStatements = "true" {"label":"Print Info"}'
+    - '// @input bool printWarningStatements = "true" {"label":"Print Warnings"}'

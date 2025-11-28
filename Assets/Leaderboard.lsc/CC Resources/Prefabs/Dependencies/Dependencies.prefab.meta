@@ -1,0 +1,199 @@
+- !<AssetImportMetadata/b8686538-c2c1-21d9-42b1-626f4323b949>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 290d1fe6-2e1d-4dc5-8131-790fde695daf
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 290d1fe6-2e1d-4dc5-8131-790fde695daf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> c70dc06f-63b5-4393-81ca-0c0fcf11009d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/1738af0b-0d8c-47bb-46c1-9634995e6f41>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: true
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: false
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 2.100000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/3a512836-a949-46e3-5c3b-fcd9e4149301>
+  PrefabRemaps:
+    []
+  Name: Dependecies
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3ca7c8fe-c746-4cec-5d8b-ab51f02e5614
+  Components:
+    - !<own> 46e11489-36a7-4272-45e3-31ee396ea03f
+    - !<own> a43f686e-f0a0-49f7-5216-7a33b9fac7ad
+    - !<own> d27c074d-578e-4301-6a4f-da6546f5eac9
+- !<SceneObject/3ca7c8fe-c746-4cec-5d8b-ab51f02e5614>
+  PrefabRemaps:
+    []
+  Name: SideSwitcher
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1738af0b-0d8c-47bb-46c1-9634995e6f41
+    - !<own> dfa2de73-65b7-4b89-65bb-267d2974e754
+- !<ScreenRegionComponent/46e11489-36a7-4272-45e3-31ee396ea03f>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<ScreenTransform/a43f686e-f0a0-49f7-5216-7a33b9fac7ad>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ObjectPrefabAssetData/c70dc06f-63b5-4393-81ca-0c0fcf11009d>
+  Prototype: !<ObjectOwner/69cfc6d8-7ef9-431f-b2f0-a5851e69d5c2>
+    PackagePath: ""
+    objects:
+      - !<own> 3a512836-a949-46e3-5c3b-fcd9e4149301
+- !<ScriptComponent/d27c074d-578e-4301-6a4f-da6546f5eac9>
+  PrefabRemaps:
+    []
+  Name: DependenciesControl
+  Enabled: true
+  ScriptAsset: !<reference> d857dff1-3913-457d-96de-423ab9b713ff
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      SideSwitcher: !<reference.ScriptComponent> dfa2de73-65b7-4b89-65bb-267d2974e754
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/dfa2de73-65b7-4b89-65bb-267d2974e754>
+  PrefabRemaps:
+    []
+  Name: SideSwitcherForLeaderboard
+  Enabled: true
+  ScriptAsset: !<reference> d9257427-49eb-4482-94d0-a00cf8264297
+  ScriptInputsDefault:
+    editDebugSettings: true
+    printDebugStatements: true
+    printWarningStatements: true
+    interactable: true
+    startAnimation: true
+    tooltipEnabled: true
+    tooltipLabel: true
+    tooltipShowOption: true
+    tooltipDelay: true
+    renderOrder: true
+    eventCallbacks: true
+    callbackType: true
+    onSwitchBehaviors: true
+    onSwitchCustomTriggers: true
+    customFunctionScript: true
+    onSwitchFunctions: true
+    prefabWorld: true
+    prefabPoints: true
+  ScriptTypesDefault:
+    tooltipComponent: true
+  ScriptInputs:
+    "":
+      editDebugSettings: false
+      printDebugStatements: false
+      printWarningStatements: true
+      interactable: false
+      alignment: -1
+      _icons: !<reference.Texture[]>
+        - !<reference> 997d499f-b02b-47f8-a627-40d9a5421163
+      startAnimation: true
+      tooltipEnabled: false
+      tooltipLabel: ""
+      tooltipShowOption: 0
+      tooltipDelay: !<float> 0.000000
+      renderOrder: 0
+      eventCallbacks: false
+      callbackType: 0
+      onSwitchBehaviors: !<reference.ScriptComponent[]>
+        []
+      onSwitchCustomTriggers: !<string[]>
+        []
+      customFunctionScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onSwitchFunctions: !<string[]>
+        []
+      prefabWorld: !<reference.ObjectPrefab> e9ae224f-02f9-4a95-be93-3ec5c8d21563
+      prefabPoints: !<reference.ObjectPrefab> 6622ffd6-c82d-4229-8106-fa14627b00c3
+  ScriptTypes:
+    "":
+      tooltipComponent: !<reference.ScriptAsset> e67370e3-c8e2-4656-9870-0ce9819ce3bf
