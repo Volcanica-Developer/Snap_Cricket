@@ -1,96 +1,454 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 355
+    size: 672
     values:
       - ""
-      - Animation
-      - Animation/ImageMaterial.mat
-      - Animation/animation.t3d
-      - Animation/animation.t3d/animation
-      - Animation/animation.t3d/atlas_0.png
-      - Balls
-      - Balls/.hidden
-      - Balls/.hidden/Beach_Ball.ss_graph
-      - Balls/.hidden/white.jpg
-      - Balls/Balls.prefab
-      - Balls/Materials
-      - Balls/Materials/Beach_Ball.mat
-      - Balls/Materials/Cricket_Ball.mat
-      - Balls/Materials/Golf_Ball.mat
-      - Balls/Materials/Magic_Ball.mat
-      - Balls/Materials/Pixar_Ball.mat
-      - Balls/Materials/Smoke_Ball.mat
-      - Balls/Materials/Soccer_Ball.mat
-      - Balls/Materials/Tennis_Ball.mat
-      - Balls/Materials/Unlit.mat
-      - Balls/Materials/V_Ball_1.mat
-      - Balls/Materials/V_Ball_2.mat
-      - Balls/Materials/V_Ball_3.mat
-      - Balls/Materials/mat1.mat
-      - Balls/Materials/mat2.mat
-      - Balls/Materials/mat3.mat
-      - Balls/Materials/mat4.mat
-      - Balls/Materials/unlit.ss_graph
-      - Balls/Meshes
-      - Balls/Meshes/BeachBall.mesh
-      - Balls/Meshes/Cricket Ball.mesh
-      - Balls/Meshes/Golf_Ball.mesh
-      - Balls/Meshes/Magic_Ball.mesh
-      - Balls/Meshes/Pixar_Ball.mesh
-      - Balls/Meshes/Poke_Ball.mesh
-      - Balls/Meshes/Poke_Ball1.mesh
-      - Balls/Meshes/Poke_Ball2.mesh
-      - Balls/Meshes/Poke_Ball3.mesh
-      - Balls/Meshes/Smoke_Ball.mesh
-      - Balls/Meshes/Soccer_Ball.mesh
-      - Balls/Meshes/Tennis_Ball.mesh
-      - Balls/Meshes/V_Ball.mesh
-      - Balls/Meshes/V_Ball1.mesh
-      - Balls/Meshes/V_Ball2.mesh
-      - Balls/Textures
-      - Balls/Textures/BeachBall.png
-      - Balls/Textures/Cricket_Ball.png
-      - Balls/Textures/Golf_Ball.png
-      - Balls/Textures/ImageMaterial.mat
-      - Balls/Textures/ItmCommonMBallB1.png
-      - Balls/Textures/ItmCommonMBallBD0.png
-      - Balls/Textures/ItmCommonMBallBU0.png
-      - Balls/Textures/ItmCommonMBallI0.png
-      - Balls/Textures/M_ball_Alb.png
-      - Balls/Textures/Pixar_Ball.png
-      - Balls/Textures/Smoke_Ball.png
-      - Balls/Textures/Soccer_Ball.png
-      - Balls/Textures/Tennis_Ball.png
-      - Balls/Textures/obj_itm_beachball_00_alb.png
-      - Balls/Textures/obj_itm_beachball_00_nrm.png
-      - Balls/Textures/obj_itm_beachball_00_trs.png
+      - AnimatedGIFs/AnimationCelebration
+      - AnimatedGIFs/AnimationCelebration/Animation
+      - AnimatedGIFs/AnimationCelebration/Animation 2
+      - AnimatedGIFs/AnimationCelebration/Animation 2/animation.t3d
+      - AnimatedGIFs/AnimationCelebration/Animation 2/animation.t3d/animation
+      - AnimatedGIFs/AnimationCelebration/Animation 2/animation.t3d/atlas_0.png
+      - AnimatedGIFs/AnimationCelebration/Animation 3
+      - AnimatedGIFs/AnimationCelebration/Animation 3/animation.t3d/animation
+      - AnimatedGIFs/AnimationCelebration/WinningMat.mat
+      - AnimatedGIFs/AnimationIdle
+      - AnimatedGIFs/AnimationIdle/Animation/BatsmenIdle_New.t3d/BatsmenIdle_New
+      - AnimatedGIFs/AnimationIdle/Animation/BatsmenIdle_New.t3d/atlas_0.png
+      - AnimatedGIFs/AnimationIdle/IdleAnimMat.mat
+      - AnimatedGIFs/AnimationOut
+      - AnimatedGIFs/AnimationOut/Animation/BatsmenOut_New.t3d/BatsmenOut_New
+      - AnimatedGIFs/AnimationOut/Animation/BatsmenOut_New.t3d/atlas_0.png
+      - AnimatedGIFs/AnimationOut/OutMaterial.mat
+      - AnimatedGIFs/AnimationShot
+      - AnimatedGIFs/AnimationShot/Animation/BatsmenShot_New.t3d/BatsmenShot_New
+      - AnimatedGIFs/AnimationShot/Animation/BatsmenShot_New.t3d/atlas_0.png
+      - AnimatedGIFs/AnimationShot/ShotMaterial.mat
+      - AnimatedGIFs/AnimationShot_New
+      - AnimatedGIFs/AnimationShot_New/AnimationShot.t3d/AnimationShot
+      - AnimatedGIFs/AnimationShot_New/AnimationShot.t3d/atlas_0.png
+      - AnimatedGIFs/Ball
+      - AnimatedGIFs/Ball/BallAnimation.t3d/BallAnimation
+      - AnimatedGIFs/Ball/BallAnimation.t3d/atlas_0.png
+      - AnimatedGIFs/BattingIdle.gif
+      - AnimatedGIFs/Confetti.gif
+      - AnimatedGIFs/ImageMaterial 2.mat
+      - AnimatedGIFs/ImageMaterial 3.mat
+      - AnimatedGIFs/Steam
+      - AnimatedGIFs/Steam/Animation/SteamAnimation.t3d/NewAtlas_0.png
+      - AnimatedGIFs/Steam/Animation/SteamAnimation.t3d/SteamAnimation
+      - AnimatedGIFs/Steam/ImageMaterial.mat
+      - AnimatedGIFs/WithCapBlue
+      - AnimatedGIFs/WithCapBlue/Celebrating/Celebrating.t3d
+      - AnimatedGIFs/WithCapBlue/Celebrating/Celebrating.t3d/Celebrating
+      - AnimatedGIFs/WithCapBlue/Celebrating/Celebrating.t3d/WithCapCeleb_0.png
+      - AnimatedGIFs/WithCapBlue/Celebrating/WithCapBlueCelebMat.mat
+      - AnimatedGIFs/WithCapBlue/Cheering/Cheering.t3d
+      - AnimatedGIFs/WithCapBlue/Cheering/Cheering.t3d/Cheering
+      - AnimatedGIFs/WithCapBlue/Cheering/Cheering.t3d/WithCapCheer_0.png
+      - AnimatedGIFs/WithCapBlue/Cheering/WithCapBlueCheerMat.mat
+      - AnimatedGIFs/WithCapBlue/Idle/Idle.t3d
+      - AnimatedGIFs/WithCapBlue/Idle/Idle.t3d/Idle
+      - AnimatedGIFs/WithCapBlue/Idle/Idle.t3d/WithCapIdle_0.png
+      - AnimatedGIFs/WithCapBlue/Idle/WithCapBlueIdleMat.mat
+      - AnimatedGIFs/WithCapBlue/Sad/Sad.t3d
+      - AnimatedGIFs/WithCapBlue/Sad/Sad.t3d/Sad
+      - AnimatedGIFs/WithCapBlue/Sad/Sad.t3d/WithCapSad_0.png
+      - AnimatedGIFs/WithCapBlue/Sad/WithCapBlueSadMat.mat
+      - AnimatedGIFs/WithCapRed
+      - AnimatedGIFs/WithCapRed/Celebrating/Celebrating.t3d/Celebrating
+      - AnimatedGIFs/WithCapRed/Celebrating/Celebrating.t3d/WithCapRedCeleb_0.png
+      - AnimatedGIFs/WithCapRed/Celebrating/WithCapRedCelebMat.mat
+      - AnimatedGIFs/WithCapRed/Cheering/Cheering.t3d
+      - AnimatedGIFs/WithCapRed/Cheering/Cheering.t3d/Cheering
+      - AnimatedGIFs/WithCapRed/Cheering/Cheering.t3d/WithCapRedCheer_0.png
+      - AnimatedGIFs/WithCapRed/Cheering/WithCapRedCheerMat.mat
+      - AnimatedGIFs/WithCapRed/Idle
+      - AnimatedGIFs/WithCapRed/Idle/Idle.t3d
+      - AnimatedGIFs/WithCapRed/Idle/Idle.t3d/Idle
+      - AnimatedGIFs/WithCapRed/Idle/Idle.t3d/WithCapRedIdle_0.png
+      - AnimatedGIFs/WithCapRed/Idle/WithCapRedIdleMat.mat
+      - AnimatedGIFs/WithCapRed/Sad
+      - AnimatedGIFs/WithCapRed/Sad/Sad.t3d
+      - AnimatedGIFs/WithCapRed/Sad/Sad.t3d/Sad
+      - AnimatedGIFs/WithCapRed/Sad/Sad.t3d/WithCapRedSad_0.png
+      - AnimatedGIFs/WithCapRed/Sad/WithCapRedSadMat.mat
+      - AnimatedGIFs/WithoutCapBlue
+      - AnimatedGIFs/WithoutCapBlue/Celebrating
+      - AnimatedGIFs/WithoutCapBlue/Celebrating/Celebrating.t3d
+      - AnimatedGIFs/WithoutCapBlue/Celebrating/Celebrating.t3d/Celebrating
+      - AnimatedGIFs/WithoutCapBlue/Celebrating/Celebrating.t3d/WithoutCapBlueCeleb_0.png
+      - AnimatedGIFs/WithoutCapBlue/Celebrating/WithoutCapBlueCelebMat.mat
+      - AnimatedGIFs/WithoutCapBlue/Cheering
+      - AnimatedGIFs/WithoutCapBlue/Cheering/Cheering.t3d
+      - AnimatedGIFs/WithoutCapBlue/Cheering/Cheering.t3d/Cheering
+      - AnimatedGIFs/WithoutCapBlue/Cheering/Cheering.t3d/WithoutCapBlueCheer_0.png
+      - AnimatedGIFs/WithoutCapBlue/Cheering/WithoutCapBlueCheerMat.mat
+      - AnimatedGIFs/WithoutCapBlue/Idle
+      - AnimatedGIFs/WithoutCapBlue/Idle/Idle.t3d
+      - AnimatedGIFs/WithoutCapBlue/Idle/Idle.t3d/Idle
+      - AnimatedGIFs/WithoutCapBlue/Idle/Idle.t3d/WithoutCapBlueIdle_0.png
+      - AnimatedGIFs/WithoutCapBlue/Idle/WithoutCapBlueIdleMat.mat
+      - AnimatedGIFs/WithoutCapBlue/Sad
+      - AnimatedGIFs/WithoutCapBlue/Sad/Sad.t3d
+      - AnimatedGIFs/WithoutCapBlue/Sad/Sad.t3d/Sad
+      - AnimatedGIFs/WithoutCapBlue/Sad/Sad.t3d/atlas_0.png
+      - AnimatedGIFs/WithoutCapBlue/Sad/WithoutCapBlueSadMat.mat
+      - AnimatedGIFs/WithoutCapRed
+      - AnimatedGIFs/WithoutCapRed/Celebrating
+      - AnimatedGIFs/WithoutCapRed/Celebrating/Celebration.t3d
+      - AnimatedGIFs/WithoutCapRed/Celebrating/Celebration.t3d/Celebration
+      - AnimatedGIFs/WithoutCapRed/Celebrating/Celebration.t3d/WithoutCapRedCeleb_0.png
+      - AnimatedGIFs/WithoutCapRed/Celebrating/WithoutCapRedCelebMat.mat
+      - AnimatedGIFs/WithoutCapRed/Cheering
+      - AnimatedGIFs/WithoutCapRed/Cheering/Cheering.t3d
+      - AnimatedGIFs/WithoutCapRed/Cheering/Cheering.t3d/Cheering
+      - AnimatedGIFs/WithoutCapRed/Cheering/Cheering.t3d/WithoutCapRedCheer_0.png
+      - AnimatedGIFs/WithoutCapRed/Cheering/WithoutCapRedCheerMat.mat
+      - AnimatedGIFs/WithoutCapRed/Idle
+      - AnimatedGIFs/WithoutCapRed/Idle/Idle.t3d
+      - AnimatedGIFs/WithoutCapRed/Idle/Idle.t3d/Idle
+      - AnimatedGIFs/WithoutCapRed/Idle/Idle.t3d/WithoutCapRedIdle_0.png
+      - AnimatedGIFs/WithoutCapRed/Idle/WithoutCapRedIdleMat.mat
+      - AnimatedGIFs/WithoutCapRed/Sad
+      - AnimatedGIFs/WithoutCapRed/Sad/Sad.t3d
+      - AnimatedGIFs/WithoutCapRed/Sad/Sad.t3d/Sad
+      - AnimatedGIFs/WithoutCapRed/Sad/Sad.t3d/WithoutCapRedSad_0.png
+      - AnimatedGIFs/WithoutCapRed/Sad/WithoutCapRedSadMat.mat
+      - AnimatedGIFs/ezgif.com-animated-gif-maker.gif
+      - AudienceAnimationHandler.js
       - Base.png
       - Behavior.lsc
-      - Box.mesh
-      - ButtonInteractionVisual.js
       - ButtonPressHandler.js
-      - CricketBall.prefab
+      - Character Controller.lsc
       - Device Camera Texture.deviceCameraTexture
       - Echopark.hdr
       - Echopark.hdr/Diffuse
       - Echopark.hdr/Specular
+      - Face Generator Component 2.lsc
+      - Face Generator Resources
+      - Face Generator Resources/Device Camera Texture 2.deviceCameraTexture
+      - Face Generator Resources/Face Crop Texture 2.faceCropTexture
       - Face Inset 2.mat
-      - Face Inset.mat
-      - Face Mask.mat
-      - Face Tracking Scope.faceTrackingScope
-      - FaceMask.png
-      - FaceMaskOpacity.jpg
-      - Head.mesh
-      - Image 2.mat
-      - Image 3.mat
-      - Image 4.mat
+      - Face Inset 3.mat
+      - GameSounds
+      - GameSounds/AudienceBoo.mp3
+      - GameSounds/BatHit.mp3
+      - GameSounds/CrowdCheer.mp3
+      - GameSounds/Loss.mp3
+      - Glam & Glitter.lsc
+      - Glam & Glitter.lsc/Box.mesh
+      - Glam & Glitter.lsc/Device Camera Texture.deviceCameraTexture
+      - Glam & Glitter.lsc/Gem Rendering.lspkg
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Default Resources
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Default Resources/Device Camera Texture.deviceCameraTexture
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Glam and Glitter.prefab
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Materials
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Materials/Detector 1.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Materials/Detector 2.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Materials/Final Result.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Materials/Hair Color.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Other Resources
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Other Resources/Device Camera Texture.deviceCameraTexture
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Render Targets
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Render Targets/Detector 1 Render Target.renderTarget
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Render Targets/Detector 2 Render Target.renderTarget
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Render Targets/Hair Render Target.renderTarget
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Scripts
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Scripts/DestructionHelper.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Scripts/Hair Color.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Shaders
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Shaders/Detector 1.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Shaders/Detector 2.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Shaders/Final Result.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Shaders/Hair Color.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Textures
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/Hair Color.lsc/Hair Color/Textures/Portrait Hair Segmentation.segmentationTexture
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Default
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Default/Device Camera Texture.deviceCameraTexture
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/HairDebug
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/HairDebug/Debug_Hair_SDF.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/HairDebug/FaceAnchorsUnlit.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/HairDebug/ppdebug.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/JFA
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/JFA/HairMask_To_SDF_Initializer.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/JFA/SDF_JumpFlood_Processor.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/Hair_Placement_Controller 0 Heart.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/Hair_Placement_Controller 1 Butterfly.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/Hair_Placement_Controller 2 Flower A.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/Hair_Placement_Controller 3 Flower B.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/Hair_Placement_Controller 4 Flower C.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/Hair_Placement_Controller 5 Stone.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/Hair_SDF_Follower.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/Hair_Skeleton_2D_FollowerP0.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/Hair_Skeleton_3D_Follower.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/Placement/InterpolationMaterial.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/SDF
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/SDF/CopyMaterial.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/SDF/DBG_SDF1_To_Skeleton_Converter.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/SDF/Final_SDF_Compositor.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/SDF/SDF1_To_Skeleton_Converter.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/SDF/ShowSegmentationScreen.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/SDF/ShowTexture.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Materials/SDF/Skeleton_To_SDF2_Processor.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Prefabs
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Prefabs/Plane 3.prefab
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Prefabs/Plane1-90.prefab
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Prefabs/Plane32.prefab
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/RenderTargets
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/RenderTargets/FaceMeshOffScreenRT.renderTarget
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/RenderTargets/Render Target  HairHull.renderTarget
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/RenderTargets/Render Target Skeleton.renderTarget
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/RenderTargets/SlowUpdateSegmentation.renderTarget
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Scripts
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Scripts/DebugHair.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Scripts/HairAugmentationController.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Scripts/HairReceiver.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Scripts/HairSDFUtils.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Scripts/InterSeg.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Scripts/OutputPositions2.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Scripts/ppdebug.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/Debug_Hair_SDF.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/FaceAnchorsUnlit.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/Final_SDF_Compositor.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/HairMask_To_SDF_Initializer.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/Hair_SDF_Follower.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/Hair_Skeleton_2D_Follower.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/SDF1_To_Skeleton_Converter.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/SDF_JumpFlood_Processor.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/Skeleton_To_SDF2_Processor.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/copyMaterial.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/interpolationMaterial.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/placementObjects.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/ppdebug.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/showSegmentionScreen.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Shaders/showTexture.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Textures
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairAugmentationCore/Textures/Body Segmentation.segmentationTexture
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Meshes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Meshes/Plane.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Meshes/flowers1.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Meshes/flowers2.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Meshes/flowers3.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Meshes/hear gem 2.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Meshes/stone.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Textures
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Textures/butterfly bw.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Textures/flower 1.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Textures/flower 2.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Textures/flower 3.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/Hair/HairObjects/Textures/gradient_linear.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/HairAugmentationFace Mesh.facemesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/HairAugmentationFace Mesh.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Hair/HairAugmentation.lspkg/HairAugmentationface_mesh.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Materials
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Materials/Face Mesh Sticker.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Materials/Makeup_1_Eyeshadow.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Materials/Makeup_2_Blush.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Materials/Makeup_3_Lips.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Materials/Makeup_4_LipsGloss.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Materials/Makeup_5_Eyeliner.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Materials/Makeup_6_Eyelashes.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Materials/Makeup_TransparentMat.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Face Mesh_WithUV.facemesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Head_splitUVs
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Head_splitUVs/Meshes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Head_splitUVs/Meshes/face.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes/Meshes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes/Meshes/Lowerlashes000.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes/Meshes/Lowerlashes001.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes/Meshes/Lowerlashes002.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes/Meshes/Lowerlashes003.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes/Meshes/Lowerlashes004.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes/Meshes/Lowerlashes005.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes/Meshes/Lowerlashes006.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/Lower eyelashes/Meshes/Lowerlashes007.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_007.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_008.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_009.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_010.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_011.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_1.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_2.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_3.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_4.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Meshes/eyelashes/Meshes/EyeLashes_6.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Scripts
+      - "Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Scripts/EyelashController [hotfix].js"
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Scripts/MakeupReceiver.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Shaders
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Shaders/Makeup.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Shaders/makeup simple.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures/Defaults
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures/Defaults/Base.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures/Defaults/Normal.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures/Defaults/baseWhite.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures/Eyelashes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures/Eyelashes/eyelashesMain.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures/Eyeliner
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures/Eyeliner/Eyeliner_09.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Makeup/Textures/Lips_CracksTexture_2.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Materials
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Materials/Bloom.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Materials/Color Correction.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Post Effects Receiver.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Sharpen Tool.lspkg
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Sharpen Tool.lspkg/Material
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Sharpen Tool.lspkg/Material/Sharpen.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Sharpen Tool.lspkg/Shader
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Sharpen Tool.lspkg/Shader/Sharpen.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Sharpen Tool.lspkg/Sharpen Tool.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Zoom In Effect.lspkg
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Zoom In Effect.lspkg/Zoom In Effect.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Zoom In Effect.lspkg/Zoom Post Effects Resources
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Zoom In Effect.lspkg/Zoom Post Effects Resources/Materials
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Zoom In Effect.lspkg/Zoom Post Effects Resources/Materials/zoom_in_post_effect.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Scripts/Zoom In Effect.lspkg/zoom in.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Shaders
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Shaders/Bloom.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Shaders/color_correction.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Textures
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Textures/roseCheeks_CC.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Post Effects/Textures/sCurve_CC.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Debug
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Debug/Debug Image - circle data.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Debug/Debug Image - source tex.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Downsample Shadows.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Downsample.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Face Mesh baked shadows.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Face Mesh screen space shadows.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Gauss Blur Horizontal.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Gauss Blur Vertical.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Occluder.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Scattering
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Scattering/Scattering - Gem Material - B.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Scattering/Scattering - Gem Material - G.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Scattering/Scattering - Gem Material - R.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Materials/Shadow Generator Mat - Shadows to UV space.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Meshes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Meshes/Face Mesh.facemesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Meshes/Gems
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Meshes/Gems/Emerald.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Meshes/Gems/Oval.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Meshes/Gems/Pear.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Meshes/Gems/Radiant.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Meshes/Gems/Round_Brilliant.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Meshes/Sphere.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Packages
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Packages/Spawn on Mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Packages/Spawn on Mesh/EncodeMeshPositions.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Packages/Spawn on Mesh/feedback_mat.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Packages/Spawn on Mesh/feedback_mat.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Packages/Spawn on Mesh/meshdata_mat_MaskTexture.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Packages/Spawn on Mesh/meshdata_mat_modified.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Scripts
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Scripts/Modules
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Scripts/Modules/CameraRenderTargetHelpersModule.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Scripts/Scattering Receiver.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders/Downsample shadows.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders/Downsample.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders/Shadows to UV space.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders/debug circle packing flat.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders/face_mesh baked shadows.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders/face_mesh screen space shadows.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders/gaussianBlurWithAlpha.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders/occluder.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Scattering/Shaders/scattering - Gem Material TAA.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Beauty.png
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Materials
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Materials/DualFilter Downsample Mat.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Materials/DualFilter Upsample Mat Gem Shadows.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Materials/DualFilter Upsample Mat Sparkles.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Materials/Shaders
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Materials/Shaders/dualFilterBlur.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Scattering Render Target.renderTarget
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Screen Texture.screenTexture
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Scripts
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Scripts/Glam & Glitter.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Scripts/GlobalsController.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Scripts/Modules
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Scripts/Modules/Render Pass Helpers Module.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Scripts/Modules/Scene Object Helpers Module.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Scripts/PluginCommunication.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/clear.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/compactData.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/debug.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/downsample.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/downsampleRemove.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/downsampleSearchA.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/downsampleSearchB.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/findPeak.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/gaussBlurMipmap.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/gaussianBlur.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/passthrough.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/sparkleOutput.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/sparkleTexture.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/threshold.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Shaders/writeOneForvalid.ss_graph
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Clear.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Compact Data.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Downsample Remove.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Downsample Search A.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Downsample Search B.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Downsample.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Find Peak.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Gauss Blur Horizontal.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Gauss Blur Mipmap.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Gauss Blur Vertical.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Passthrough.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Sparkle Debug.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Sparkle Output.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Sparkle Texture.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Threshold.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Materials/Sparkles Tracking/Write One For Valid.mat
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Meshes
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Meshes/Plane.mesh
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Scripts
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Scripts/Sparkles Tracking.js
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Textures
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/Sparkles Tracking/Textures/Size Decay Curve 2.animationCurveTrack
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/blocky_photo_studio_2k.hdr
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/blocky_photo_studio_2k.hdr/Diffuse
+      - Glam & Glitter.lsc/Glam and Glitter.lspkg/Shared/blocky_photo_studio_2k.hdr/Specular
+      - Glam & Glitter.lsc/MaterialParams.png
+      - Glam & Glitter.lsc/PBR.mat
+      - Glam & Glitter.lsc/Render Target.renderTarget
+      - Glam & Glitter.lsc/package.native
+      - Glam & Glitter.lsc/pbr.ss_graph
+      - Head Mesh.facemesh
       - Image 5.mat
-      - Image 6.mat
-      - Image.mat
       - Image.png
-      - ImageMaterial 2.mat
-      - ImageMaterial.mat
+      - ImageMaterial 3.mat
+      - LSQuickScripts.lspkg
+      - LSQuickScripts.lspkg/LSQuickScripts.js
       - Leaderboard.lsc
       - Leaderboard.lsc/CC Resources
       - Leaderboard.lsc/CC Resources/BitmojiStickerLoader.ts
@@ -210,95 +568,26 @@ CollapsedEntities:
       - Leaderboard.lsc/CC Resources/TokenManager.ts
       - Leaderboard.lsc/README LeaderboardCC.md
       - Leaderboard.lsc/README LeaderboardCore.md
-      - Leaderboard.lsc/package.native
       - MainGameController.js
       - Mask.png
       - MaterialParams.png
       - Normal.png
-      - Occluder.mat
-      - PBR 2.mat
-      - PBR.mat
+      - PBR 3.mat
+      - Prefabs
+      - Prefabs/CricketBall1.prefab
       - Render Target.renderTarget
       - Resource Bar Pack.lspkg
-      - Resource Bar Pack.lspkg/Fonts
-      - Resource Bar Pack.lspkg/Fonts/Lato-Bold.ttf
-      - Resource Bar Pack.lspkg/Fonts/Lato-Regular.ttf
-      - Resource Bar Pack.lspkg/Materials
-      - "Resource Bar Pack.lspkg/Materials/Bar Mat 1 [EDIT ME].mat"
-      - "Resource Bar Pack.lspkg/Materials/Bar Mat 2 [EDIT ME].mat"
-      - "Resource Bar Pack.lspkg/Materials/Bar Mat 3 [EDIT ME].mat"
-      - "Resource Bar Pack.lspkg/Materials/Bar Mat 4 [EDIT ME].mat"
-      - "Resource Bar Pack.lspkg/Materials/Bar Mat 5 [EDIT ME].mat"
-      - Resource Bar Pack.lspkg/Materials/BgImageMat.mat
-      - "Resource Bar Pack.lspkg/Materials/Frame Material 1 [EDIT ME].mat"
-      - "Resource Bar Pack.lspkg/Materials/Frame Material 2 [EDIT ME].mat"
-      - "Resource Bar Pack.lspkg/Materials/Frame Material 3 [EDIT ME].mat"
-      - "Resource Bar Pack.lspkg/Materials/Frame Material 4 [EDIT ME].mat"
-      - Resource Bar Pack.lspkg/Materials/Image.mat
-      - Resource Bar Pack.lspkg/Materials/Image10.mat
-      - Resource Bar Pack.lspkg/Materials/Image11.mat
-      - Resource Bar Pack.lspkg/Materials/Image12.mat
-      - Resource Bar Pack.lspkg/Materials/Image13.mat
-      - Resource Bar Pack.lspkg/Materials/Image14.mat
-      - Resource Bar Pack.lspkg/Materials/Image15.mat
-      - Resource Bar Pack.lspkg/Materials/Image2.mat
-      - Resource Bar Pack.lspkg/Materials/Image3.mat
-      - Resource Bar Pack.lspkg/Materials/Image4.mat
-      - Resource Bar Pack.lspkg/Materials/Image5.mat
-      - Resource Bar Pack.lspkg/Materials/Image7.mat
-      - Resource Bar Pack.lspkg/Materials/Image8.mat
-      - Resource Bar Pack.lspkg/Materials/Image9.mat
-      - Resource Bar Pack.lspkg/Materials/Info Card Background.mat
-      - "Resource Bar Pack.lspkg/Materials/Segment Bar Mat [EDIT ME].mat"
-      - Resource Bar Pack.lspkg/Materials/SpritePreset.mat
-      - Resource Bar Pack.lspkg/Resource_Bar_Pack____PUT_IN_ORTHO_CAM.prefab
       - Resource Bar Pack.lspkg/Scripts
       - Resource Bar Pack.lspkg/Scripts/Behavior.lsc
-      - Resource Bar Pack.lspkg/Scripts/ContinuousBarUpdaterScript.js
-      - Resource Bar Pack.lspkg/Scripts/Documentation.js
-      - Resource Bar Pack.lspkg/Scripts/SegmentedBarUpdaterScript.js
-      - Resource Bar Pack.lspkg/Shaders
-      - "Resource Bar Pack.lspkg/Shaders/Bar Mat 1 [EDIT ME].ss_graph"
-      - Resource Bar Pack.lspkg/Shaders/Image1.ss_graph
-      - Resource Bar Pack.lspkg/Shaders/Info Card Background.ss_graph
-      - Resource Bar Pack.lspkg/Textures
-      - Resource Bar Pack.lspkg/Textures/BaseTex.png
-      - Resource Bar Pack.lspkg/Textures/Hearth.png
-      - Resource Bar Pack.lspkg/Textures/Icon.png
-      - Resource Bar Pack.lspkg/Textures/Life 2.png
-      - Resource Bar Pack.lspkg/Textures/Life 4.png
-      - Resource Bar Pack.lspkg/Textures/Life 5.png
-      - Resource Bar Pack.lspkg/Textures/Life 7.png
-      - Resource Bar Pack.lspkg/Textures/Life Bar 2.png
-      - Resource Bar Pack.lspkg/Textures/Life Bar 7.png
-      - Resource Bar Pack.lspkg/Textures/Life bar 4.png
-      - Resource Bar Pack.lspkg/Textures/Life bar 5.png
-      - Resource Bar Pack.lspkg/Textures/Life bars 1.png
-      - Resource Bar Pack.lspkg/package.native
       - Scene.scene
-      - Segmentation Texture.segmentationTexture
       - Simple High Score.lspkg
-      - Simple High Score.lspkg/Fonts
-      - Simple High Score.lspkg/Fonts/jellee_roman.ttf
-      - Simple High Score.lspkg/Materials
-      - Simple High Score.lspkg/Materials/SpritePreset.lsmat.mat
-      - Simple High Score.lspkg/Materials/SpritePreset2.lsmat.mat
-      - Simple High Score.lspkg/Materials/SpritePreset3.lsmat.mat
-      - Simple High Score.lspkg/Scripts
-      - Simple High Score.lspkg/Scripts/EndGame.js
-      - Simple High Score.lspkg/Scripts/IncrementScore.js
-      - Simple High Score.lspkg/Scripts/SimpleHighScoreController.js
       - Simple High Score.lspkg/Shaders
       - Simple High Score.lspkg/Shaders/SpritePreset1.lsmat.ss_graph
-      - Simple High Score.lspkg/Simple High Score__PUT_IN_ORTHO_CAM.prefab
-      - Simple High Score.lspkg/Textures
-      - Simple High Score.lspkg/Textures/add_point.png
-      - Simple High Score.lspkg/Textures/end_game.png
-      - Simple High Score.lspkg/Textures/high_score_background.png
-      - Simple High Score.lspkg/package.native
+      - SoundManager.js
+      - Sphere.mesh
       - Square.png
-      - Target.png
-      - TargetScaling.png
+      - Style Generator Resources
+      - Style Generator Resources/Device Camera Texture.deviceCameraTexture
       - TweenManager.lspkg
       - "TweenManager.lspkg/ExampleResources [REMOVE_ME]"
       - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/ExampleTweenValueScript.js"
@@ -329,16 +618,33 @@ CollapsedEntities:
       - TweenManager.lspkg/Tween/TweenTypes/TweenValue.lsc
       - TweenManager.lspkg/TweenManager__PLACE_IN_SCENE.prefab
       - TweenManager.lspkg/package.native
+      - UIAssets
       - UIAssets/Awesome!!.png
+      - UIAssets/Bar.png
+      - UIAssets/Bells.png
+      - UIAssets/Counter
+      - UIAssets/Counter/1.png
+      - UIAssets/Counter/2.png
+      - UIAssets/Counter/3.png
+      - UIAssets/Counter/ImageMaterial 2.mat
+      - UIAssets/Counter/ImageMaterial 3.mat
+      - UIAssets/Counter/ImageMaterial.mat
       - UIAssets/GAME OVER!!!.png
-      - UIAssets/GameBg 2.png
-      - UIAssets/GameBg.png
+      - UIAssets/GameBg 2.jpg
       - UIAssets/Good!.png
+      - UIAssets/Head.png
       - UIAssets/ImageMaterial 10.mat
       - UIAssets/ImageMaterial 11.mat
       - UIAssets/ImageMaterial 12.mat
+      - UIAssets/ImageMaterial 13.mat
+      - UIAssets/ImageMaterial 14.mat
+      - UIAssets/ImageMaterial 18.mat
       - UIAssets/ImageMaterial 2.mat
-      - UIAssets/ImageMaterial 3.mat
+      - UIAssets/ImageMaterial 24.mat
+      - UIAssets/ImageMaterial 30.mat
+      - UIAssets/ImageMaterial 32.mat
+      - UIAssets/ImageMaterial 33.mat
+      - UIAssets/ImageMaterial 34.mat
       - UIAssets/ImageMaterial 4.mat
       - UIAssets/ImageMaterial 5.mat
       - UIAssets/ImageMaterial 6.mat
@@ -346,16 +652,27 @@ CollapsedEntities:
       - UIAssets/ImageMaterial 8.mat
       - UIAssets/ImageMaterial 9.mat
       - UIAssets/ImageMaterial.mat
-      - UIAssets/Indicator.png
+      - UIAssets/InnerTarget.png
+      - UIAssets/New_Hat.png
       - UIAssets/OUT!!!.png
       - UIAssets/Perfection!!.png
       - UIAssets/Played.png
-      - UIAssets/PowerBar.png
-      - UIAssets/TAP TO START.png
+      - UIAssets/ScalingCircle.png
+      - UIAssets/Scoreboard
+      - UIAssets/Scoreboard/ImageMaterial.mat
+      - UIAssets/Scoreboard/StumpLeft.mat
+      - UIAssets/Scoreboard/StumpMiddle.mat
+      - UIAssets/Scoreboard/StumpRight.mat
+      - UIAssets/Scoreboard/TextBg.png
+      - UIAssets/Scoreboard/Wicket_Normal.png
+      - UIAssets/Scoreboard/Wicket_Out.png
+      - UIAssets/Stumps.png
+      - UIAssets/TAP TO  HIT THE BALL (1).png
       - UIAssets/TOO EARLY!!!.png
+      - UIAssets/TargetCircle.png
+      - comic-sans-ms-font-family
+      - comic-sans-ms-font-family/COMIC.TTF
       - flat.ss_graph
       - image_unlit.ss_graph
-      - occluder.ss_graph
       - pbr.ss_graph
-      - textures
   options: 4

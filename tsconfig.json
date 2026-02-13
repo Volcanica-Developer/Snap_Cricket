@@ -13,6 +13,14 @@
         "./Packages/*",
         "./Cache/TypeScript/Src/Packages/*"
       ],
+      "Glam & Glitter.lsc/*": [
+        "./Assets/Glam & Glitter.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Glam & Glitter.lsc/*"
+      ],
+      "Glam & Glitter.lsc/Gem Rendering.lspkg/*": [
+        "./Assets/Glam & Glitter.lsc/Gem Rendering.lspkg/*",
+        "./Cache/TypeScript/Src/Assets/Glam & Glitter.lsc/Gem Rendering.lspkg/*"
+      ],
       "Leaderboard.lsc/CC Resources/Prefabs/Dependencies/SideSwitcherForLeaderboard.lsc/*": [
         "./Assets/Leaderboard.lsc/CC Resources/Prefabs/Dependencies/SideSwitcherForLeaderboard.lsc/*",
         "./Cache/TypeScript/Src/Assets/Leaderboard.lsc/CC Resources/Prefabs/Dependencies/SideSwitcherForLeaderboard.lsc/*"
@@ -35,6 +43,8 @@
     "./Packages/**/*.ts",
     "./Cache/TypeScript/Src/Packages/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Leaderboard.lsc/CC Resources/Prefabs/Dependencies/SideSwitcherForLeaderboard.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Resource Bar Pack.lspkg/Scripts/Behavior.lsc/**/*.ts"
+    "./Cache/TypeScript/Src/Assets/Resource Bar Pack.lspkg/Scripts/Behavior.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Glam & Glitter.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Glam & Glitter.lsc/Gem Rendering.lspkg/**/*.ts"
   ]
 }

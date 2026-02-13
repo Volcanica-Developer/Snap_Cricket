@@ -1,0 +1,33 @@
+- !<AssetImportMetadata/69b9a6a1-379f-4b42-af38-efbc79df1ce6>
+  ImportedAssetIds:
+    AnimatedTexture: !<reference> b03fa336-5150-4cd1-b4d0-5378ee98fe95
+    WithCapRedCheer_0.png: !<reference> 1664b882-ee30-407f-8470-bea0508d9ae4
+  ImporterName: LensAnimationImporter
+  PrimaryAsset: !<reference> b03fa336-5150-4cd1-b4d0-5378ee98fe95
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CannotBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    AnimatedTexture: !<own> be308edd-2b1b-4862-9bb3-5d5ce363b608
+  DependentFiles:
+    - WithCapRedCheer_0.png
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Atlas Compressor
+    CompressionSettings: !<AnimatedCompressionSettings>
+      CompressorName: Size
+      CompressionSettings: !<TextureCompressionSettings>
+        Level: Low
+- !<AnimatedTextureData/be308edd-2b1b-4862-9bb3-5d5ce363b608>
+  AutoPlay: true
+  Reversed: false
+  PingPong: false
+  CurrentSequence: default
+  KeyFramesData:
+    default:
+      - time: 0.000000
+        value: 0
+      - time: 1.000000
+        value: 16

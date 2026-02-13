@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/7237b8b9-833a-47d0-927c-e548a000d7bd>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b0dc5594-675e-4ede-85db-af221415d507
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b0dc5594-675e-4ede-85db-af221415d507
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 001402fe-fd80-4a53-b1eb-985da3a3da46
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/001402fe-fd80-4a53-b1eb-985da3a3da46>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6ae531d1-3428-4073-bb12-9d93ce181c26
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    allAudiences: false
+    withCapRedAudiences: false
+    withCapRedCelebrationMaterial: false
+    withCapRedCheerMaterial: false
+    withCapRedIdleMaterial: false
+    withCapRedSadMaterial: false
+    withoutCapRedAudiences: false
+    withoutCapRedCelebrationMaterial: false
+    withoutCapRedCheerMaterial: false
+    withoutCapRedIdleMaterial: false
+    withoutCapRedSadMaterial: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - allAudiences: !<reference.SceneObject[]>
+        []
+      withCapRedAudiences: !<reference.Image[]>
+        []
+      withoutCapRedAudiences: !<reference.Image[]>
+        []
+      withCapRedIdleMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      withCapRedCheerMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      withCapRedSadMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      withCapRedCelebrationMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      withoutCapRedIdleMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      withoutCapRedCheerMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      withoutCapRedSadMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      withoutCapRedCelebrationMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

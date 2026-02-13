@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: Cricket Game
   lensDescriptors:
     []
   lensApplicability:
@@ -23,8 +23,8 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: 5160af050d458c22a825268dd56970f9
+  videoPreviewHash: 01f4cb0209142e1cf1fdcedfc82b0ed9
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.16.1.25112007
   activationCamera: Front

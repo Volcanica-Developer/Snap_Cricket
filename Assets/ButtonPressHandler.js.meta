@@ -27,7 +27,18 @@
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     button: false
+    confettiObject: false
+    gameObject1: false
+    gameObject2: false
+    gameObject3: false
+    gameOverTween1: false
+    gameOverTween2: false
+    gameOverTweenObject: false
     mainMenuController: false
+    tweenName1: false
+    tweenName2: false
+    tweenObject1: false
+    tweenObject2: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -39,6 +50,17 @@
   DefaultScriptInputs:
     - mainMenuController: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       button: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameObject1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameObject2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameObject3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameOverTween1: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gameOverTween2: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gameOverTweenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenObject1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenObject2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName1: ""
+      tweenName2: ""
+      confettiObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

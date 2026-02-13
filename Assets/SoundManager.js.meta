@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/90ec4ec2-69db-4434-8614-cbd8c7b8b0b0>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 82c67b94-933a-4cc1-ac43-48f507fb9f92
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 82c67b94-933a-4cc1-ac43-48f507fb9f92
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bd411f88-0180-4540-b858-9ece4348db3d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/bd411f88-0180-4540-b858-9ece4348db3d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: feacba54-de52-498f-a89f-f47ec2421738
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    ballSpawnSound: false
+    batHitSound: false
+    bgSound: false
+    fadeIn: false
+    fadeOut: false
+    gameOverSound: false
+    goodHitSound: false
+    normalHitSound: false
+    outSound: false
+    perfectHitSound: false
+    volume: false
+    weakHitSound: false
+    wicketLostSound: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - batHitSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      outSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      perfectHitSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      goodHitSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      normalHitSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      weakHitSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      ballSpawnSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      wicketLostSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      gameOverSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      bgSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      volume: !<float> 1.000000
+      fadeIn: !<float> 0.000000
+      fadeOut: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}

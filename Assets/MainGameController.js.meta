@@ -29,12 +29,47 @@
     AfterBounce_Tween: false
     BeforeBounce_Tween: false
     Leaderboard: false
+    OutTween1: false
+    OutTween2: false
+    OutTween3: false
+    OutTween4: false
+    OutTween5: false
+    StartButton: false
+    animTex: false
+    colorChangeMaterial: false
+    confettiObject: false
+    currentScoreScaleDownTween: false
+    currentScoreScaleUpTween: false
+    currentScoreText: false
     debugText: false
+    gameOverTween1: false
+    gameOverTween2: false
+    gameOverTweenObject: false
     highScoreText: false
     hitQualityDebugText: false
+    idleMaterial: false
     myPrefab: false
+    myPrefabs: false
+    objectToMove: false
+    objectsToReset: false
+    outAnimTex: false
+    outMaterial: false
+    playerImage: false
     scoreText: false
+    screenBreakObject: false
     secondsText: false
+    shotAnimTex: false
+    shotMaterial: false
+    spawnPosition: false
+    steamObject: false
+    wicketImage1: false
+    wicketImage2: false
+    wicketImage3: false
+    wicketLostSprite1: false
+    wicketLostSprite2: false
+    wicketLostSprite3: false
+    wicketsText: false
+    winningMaterial: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -44,7 +79,9 @@
   Attachments:
     []
   DefaultScriptInputs:
-    - myPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+    - myPrefabs: !<reference.ObjectPrefab[]>
+        []
+      myPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       BeforeBounce_Tween: ""
       AfterBounce_Tween: ""
       debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
@@ -52,7 +89,42 @@
       secondsText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       highScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      wicketsText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      currentScoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      currentScoreScaleUpTween: ""
+      currentScoreScaleDownTween: ""
       Leaderboard: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      OutTween1: ""
+      OutTween2: ""
+      OutTween3: ""
+      OutTween4: ""
+      OutTween5: ""
+      objectsToReset: !<reference.SceneObject[]>
+        []
+      playerImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      idleMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      shotMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      outMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      winningMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      shotAnimTex: !<reference.AnimatedTexture> 00000000-0000-0000-0000-000000000000
+      outAnimTex: !<reference.AnimatedTexture> 00000000-0000-0000-0000-000000000000
+      colorChangeMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      steamObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      confettiObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      screenBreakObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      StartButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spawnPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectToMove: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      wicketImage1: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      wicketImage2: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      wicketImage3: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      wicketLostSprite1: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      wicketLostSprite2: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      wicketLostSprite3: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      animTex: !<reference.AnimatedTexture> 00000000-0000-0000-0000-000000000000
+      gameOverTweenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameOverTween1: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gameOverTween2: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
