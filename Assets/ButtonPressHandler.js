@@ -3,6 +3,7 @@
 //@input SceneObject gameObject1   // first game object to enable/disable
 //@input SceneObject gameObject2   // second game object to enable/disable
 //@input SceneObject gameObject3   // third game object to enable/disable
+//@input SceneObject tapToHit   // "tap to hit" prompt - hidden during recording
 //@input Component.ScriptComponent gameOverTween1   // first tween component to disable on startgame
 //@input Component.ScriptComponent gameOverTween2   // second tween component to disable on startgame
 //@input SceneObject gameOverTweenObject   // scene object with tweens to play on startgame
@@ -197,6 +198,31 @@ script.onPress = function(button_Event){
             break;
     }
 }
+
+// Hide objects during recording; keep them hidden until recording stops
+var snapRecordStartEvent = script.createEvent("SnapRecordStartEvent");
+snapRecordStartEvent.bind(function() {
+    if (script.gameObject1) script.gameObject1.enabled = false;
+    if (script.gameObject2) script.gameObject2.enabled = false;
+    if (script.gameObject3) script.gameObject3.enabled = false;
+    if (script.tapToHit) script.tapToHit.enabled = false;
+});
+
+var snapRecordStopEvent = script.createEvent("SnapRecordStopEvent");
+snapRecordStopEvent.bind(function() {
+    // Restore tap to hit when recording ends (visible during gameplay)
+    if (script.tapToHit) script.tapToHit.enabled = true;
+});
+
+// Keep gameObject1/2/3 hidden while recording (in case countdown tries to show them)
+var recordingUpdateEvent = script.createEvent("UpdateEvent");
+recordingUpdateEvent.bind(function() {
+    if (global.scene && global.scene.isRecording && global.scene.isRecording()) {
+        if (script.gameObject1) script.gameObject1.enabled = false;
+        if (script.gameObject2) script.gameObject2.enabled = false;
+        if (script.gameObject3) script.gameObject3.enabled = false;
+    }
+});
 
 // Store initial scales when script initializes
 storeInitialScales();

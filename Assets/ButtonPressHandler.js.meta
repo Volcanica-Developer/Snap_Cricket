@@ -35,6 +35,7 @@
     gameOverTween2: false
     gameOverTweenObject: false
     mainMenuController: false
+    tapToHit: false
     tweenName1: false
     tweenName2: false
     tweenObject1: false
@@ -53,6 +54,7 @@
       gameObject1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       gameObject2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       gameObject3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tapToHit: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       gameOverTween1: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       gameOverTween2: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       gameOverTweenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000

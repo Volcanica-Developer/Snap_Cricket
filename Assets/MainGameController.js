@@ -779,10 +779,7 @@ function resetGameOnOut() {
         }
     }
 
-    // Disable script and enable StartButton
-    if (script.StartButton) {
-        script.StartButton.enabled = true;
-    }
+    // Disable script (StartButton no longer shown after game over)
     script.getSceneObject().enabled = false;
 }
 

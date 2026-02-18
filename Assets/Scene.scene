@@ -1893,6 +1893,7 @@
       gameObject1: !<reference.SceneObject> ea9294e2-a554-4e72-bd35-07caed6fb716
       gameObject2: !<reference.SceneObject> ea6d4dff-2970-45c0-9f35-4704f4a981a7
       gameObject3: !<reference.SceneObject> 07eed430-6d5f-43f3-b09a-28c9da68f101
+      tapToHit: !<reference.SceneObject> c103d421-0401-4a83-8aac-04b9905eaa79
       gameOverTween1: !<reference.ScriptComponent> 38e838d5-6bed-45a0-8a52-3bf03f719108
       gameOverTween2: !<reference.ScriptComponent> 01c13bbd-ef07-4c09-8150-21370adcdc08
       gameOverTweenObject: !<reference.SceneObject> e71b9e2e-842e-4924-a780-ba5449ada7b5
@@ -2873,7 +2874,7 @@
     fixedHeight: true
     deactivatedFixedSprite: false
     deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
+  Pivot: {x: 0.000000, y: 0.700000}
   Transform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
